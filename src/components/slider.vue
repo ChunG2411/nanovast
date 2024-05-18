@@ -407,7 +407,7 @@ body {
     overflow: hidden;
     position: relative;
     width: 100%;
-    height: 600px;
+    height: 650px;
     z-index: 1;
 
     .slideshow-inner {

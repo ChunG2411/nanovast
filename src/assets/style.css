@@ -24,7 +24,7 @@
 
 #app {
   max-width: 100vw;
-  background-color: rgb(82, 82, 82);
+  background-color: #F4F4F4;
 }
 
 /* --------------color---------------- */
@@ -36,11 +36,16 @@
   color: var(--color_gray);
 }
 
+.primary {
+  color: var(--primary_color);
+}
+
 .active {
   color: var(--active_color);
 }
 
 /* -----------------size---------------- */
+
 
 /* ----------------text---------------- */
 a {
@@ -68,8 +73,70 @@ i {
   width: 150px;
 }
 
-img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
+.gallery {
+  overflow: hidden;
+  border-radius: 10px;
+  width: 500px;
+  display: grid;
+  place-items: center;
 }
+
+.gallery img {
+  max-width: 100% !important;
+  height: auto !important;
+}
+
+.member-img {
+  overflow: hidden;
+  width: 200px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.member-img img {
+  height: 100%;
+}
+
+
+.icon {
+  width: 60px;
+  height: 60px;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+
+/* ----------------------button----------------------- */
+button {
+  padding: 10px 40px;
+  border-radius: 20px;
+  background-color: #EFF4F8;
+  border: 0;
+  color: var(--primary_color);
+  font-weight: 700;
+  transition: all 0.3s ease;
+  border: 1px solid var(--primary_color);
+}
+
+button:hover {
+  color: white;
+  background-image: linear-gradient(to right, rgb(35, 175, 77) , rgb(56, 228, 122));
+}
+
+
+/* -------------------scrollbar------------------- */
+/* ::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F4F4F4; 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary_color); 
+  border-radius: 10px;
+} */
