@@ -1,4 +1,10 @@
 <script setup>
+import {TweenMax, Power3, gsap} from "gsap";
+
+gsap.config({
+  nullTargetWarn: false,
+});
+
 var slideshowDuration = 4000;
 var slideshow = $('.main-content .slideshow');
 
@@ -217,7 +223,7 @@ $(document).ready(function () {
     }, slideshowDuration);
 
     setInterval(function() {
-        $('.slideshow .arrows .arrow').click();
+        $('.slideshow .arrows .prev').click();
     }, slideshowDuration);
 
     slideshow.data('timeout', timeout);
@@ -238,7 +244,7 @@ if ($('.main-content .slideshow').length > 1) {
                             <div class="caption">
                                 <div class="title">Slide title 1</div>
                                 <div class="text">
-                                    <p>Slide description 1</p>
+                                    <p class="white">Slide description 1</p>
                                 </div>
                                 <a href="#" class="btn">
                                     <span class="btn-inner">Learn More</span>
@@ -254,7 +260,7 @@ if ($('.main-content .slideshow').length > 1) {
                             <div class="caption">
                                 <div class="title">Slide title 2</div>
                                 <div class="text">
-                                    <p>Slide description 2</p>
+                                    <p class="white">Slide description 2</p>
                                 </div>
                                 <a href="#" class="btn">
                                     <span class="btn-inner">Learn More</span>
@@ -270,7 +276,7 @@ if ($('.main-content .slideshow').length > 1) {
                             <div class="caption">
                                 <div class="title">Slide title 3</div>
                                 <div class="text">
-                                    <p>Slide description 3</p>
+                                    <p class="white">Slide description 3</p>
                                 </div>
                                 <a href="#" class="btn">
                                     <span class="btn-inner">Learn More</span>
@@ -286,7 +292,7 @@ if ($('.main-content .slideshow').length > 1) {
                             <div class="caption">
                                 <div class="title">Slide title 4</div>
                                 <div class="text">
-                                    <p>Slide description 4</p>
+                                    <p class="white">Slide description 4</p>
                                 </div>
                                 <a href="#" class="btn">
                                     <span class="btn-inner">Learn More</span>
@@ -342,9 +348,20 @@ if ($('.main-content .slideshow').length > 1) {
 </template>
 
 <style scoped lang="scss">
-body {
-    font: 14px/2 "Open sans", sans-serif;
-    letter-spacing: 0.05em;
+@mixin mobile {
+    @media (max-width: 500px) {
+        @content;
+    }
+}
+@mixin tablet {
+    @media (min-width: 500px) and (max-width: 850px) {
+        @content;
+    }
+}
+@mixin desktop {
+    @media (min-width: 850px) {
+        @content;
+    }
 }
 
 .btn {
@@ -407,6 +424,10 @@ body {
     overflow: hidden;
     position: relative;
     width: 100%;
+    @include mobile {
+        min-width: 350px;
+    }
+    min-width: 500px;
     height: 650px;
     z-index: 1;
 
