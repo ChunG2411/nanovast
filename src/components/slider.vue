@@ -348,21 +348,7 @@ if ($('.main-content .slideshow').length > 1) {
 </template>
 
 <style scoped lang="scss">
-@mixin mobile {
-    @media (max-width: 500px) {
-        @content;
-    }
-}
-@mixin tablet {
-    @media (min-width: 500px) and (max-width: 850px) {
-        @content;
-    }
-}
-@mixin desktop {
-    @media (min-width: 850px) {
-        @content;
-    }
-}
+@import '../assets/css/mixins.scss';
 
 .btn {
     display: inline-block;

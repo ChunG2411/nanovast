@@ -54,21 +54,7 @@ $(window).scroll(()=>{
 </template>
 
 <style scoped lang="scss">
-@mixin mobile {
-    @media (max-width: 500px) {
-        @content;
-    }
-}
-@mixin tablet {
-    @media (min-width: 500px) and (max-width: 850px) {
-        @content;
-    }
-}
-@mixin desktop {
-    @media (min-width: 850px) {
-        @content;
-    }
-}
+@import '../assets/css/mixins.scss';
 
 .footer-view {
     width: 100%;
@@ -76,7 +62,7 @@ $(window).scroll(()=>{
         padding: 30px 40px;
     }
     padding: 70px 70px 30px 70px;
-    background: url('../assets/background_gallery.jpg');
+    background: url('../assets/background/home_gallery.jpg');
     background-size: cover;
 
     .footer-content {

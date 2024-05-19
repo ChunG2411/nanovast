@@ -47,21 +47,7 @@ import 'swiper/css';
 </template>
 
 <style scoped lang="scss">
-@mixin mobile {
-    @media (max-width: 500px) {
-        @content;
-    }
-}
-@mixin tablet {
-    @media (min-width: 500px) and (max-width: 850px) {
-        @content;
-    }
-}
-@mixin desktop {
-    @media (min-width: 850px) {
-        @content;
-    }
-}
+@import '../assets/css/mixins.scss';
 
 .icon-slot {
     @include mobile {

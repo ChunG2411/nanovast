@@ -2,11 +2,14 @@
 import Slider from '../components/slider.vue'
 import Prize from '../components/prize.vue'
 import Footer from '../components/footer.vue'
-import Image from '../components/image.vue'
+import Preveiw from '../components/preveiw.vue'
+import Header from '../components/header.vue'
+import Navbar from '../components/navbar.vue'
 
 import image_gallery_1 from '../assets/gallery1.jpg'
 
 import { reactive } from 'vue'
+
 
 const show_image = reactive({
     status: false,
@@ -19,113 +22,14 @@ function showImage(src) {
     show_image.src = src
 }
 
-
-$(window).scroll(() => {
-    if ($(window).scrollTop() > 200) {
-        document.querySelector('.nav').style.position = 'fixed'
-        document.querySelector('.nav .nav-card').style.width = '100%'
-    }
-    else {
-        document.querySelector('.nav').style.position = 'absolute'
-        document.querySelector('.nav .nav-card').style.width = '85%'
-    }
-})
-
 </script>
 
 <template>
     <div class="home-view">
-        <div class="header">
-            <div class="d-flex gap-5">
-                <div class="d-flex align-items-center gap-2">
-                    <i class="far fa-envelope white"></i>
-                    <p class="white">Gowala45@gmail.com</p>
-                </div>
-                <div class="d-flex align-items-center gap-2">
-                    <i class="fas fa-phone-volume white"></i>
-                    <p class="white">+88 130 589 745 6987</p>
-                </div>
-                <div class="d-flex align-items-center gap-2">
-                    <i class="far fa-clock white"></i>
-                    <p class="white">Mon - Fri 09:00 - 18:00</p>
-                </div>
-            </div>
-            <div class="d-flex align-items-center gap-3">
-                <i class="fab fa-twitter white"></i>
-                <i class="fab fa-behance white"></i>
-                <i class="fab fa-instagram white"></i>
-                <i class="fab fa-vimeo-v white"></i>
-                <i class="fab fa-linkedin-in white"></i>
-            </div>
-        </div>
+        <Header></Header>
         <div class="position-relative">
-            <div class="nav">
-                <div class="nav-card">
-                    <div class="logo">
-                        <img src="../assets/logo.png">
-                    </div>
-                    <div class="nav-list">
-                        <div class="nav-item">
-                            <div class="item-top">
-                                <router-link to="/">Home</router-link>
-                            </div>
-                        </div>
-                        <div class="nav-item">
-                            <div class="item-top">
-                                <a>Pages</a>
-                                <i class="fa-solid fa-chevron-down mt-1"></i>
-                            </div>
-                            <div class="nav-item-drop">
-                                <a href="#infor">Về chúng tôi</a>
-                                <a href="#member">Thành viên</a>
-                                <a style="border: 0;" href="#gallery">Thư viện</a>
-                            </div>
-                        </div>
-                        <div class="nav-item">
-                            <div class="item-top">
-                                <a>Product</a>
-                                <i class="fa-solid fa-chevron-down mt-1"></i>
-                            </div>
-                            <div class="nav-item-drop">
-                                <a>Product 1</a>
-                                <a>Product 2</a>
-                                <a style="border: 0;">Product 3</a>
-                            </div>
-                        </div>
-                        <div class="nav-item">
-                            <div class="item-top">
-                                <a>Blog</a>
-                                <i class="fa-solid fa-chevron-down mt-1"></i>
-                            </div>
-                            <div class="nav-item-drop">
-                                <a>Blog 1</a>
-                                <a>Blog 2</a>
-                                <a style="border: 0;">Blog 3</a>
-                            </div>
-                        </div>
-                        <div class="nav-item">
-                            <div class="item-top">
-                                <a href="#contact">Contact Us</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="nav-button">
-                        <i class="fa-solid fa-bars primary fs-3"></i>
-                        <div class="nav-button-drop">
-                            <router-link to="/">Home</router-link>
-                            <a href="#infor">Về chúng tôi</a>
-                            <a href="#member">Thành viên</a>
-                            <a href="#gallery">Thư viện</a>
-                            <a>Product</a>
-                            <a>Blog</a>
-                            <a href="#contact">Contact Us</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <Slider></Slider>
-            </div>
+            <Navbar></Navbar>
+            <Slider></Slider>
         </div>
     </div>
 
@@ -453,190 +357,18 @@ $(window).scroll(() => {
     </div>
 
     <!-- ------------------------------------footer view--------------------------------- -->
-    <div id="contact"></div>
     <Footer></Footer>
 
     <!-- ------------------------components --------------------------->
-    <Image :src="show_image.src" @close="show_image.status = false" v-if="show_image.status"></Image>
+    <Preveiw :src="show_image.src" @close="show_image.status = false" v-if="show_image.status"></Preveiw>
 </template>
 
 
 <style scoped lang="scss">
-@mixin mobile {
-    @media (max-width: 500px) {
-        @content;
-    }
-}
-@mixin tablet {
-    @media (min-width: 500px) and (max-width: 850px) {
-        @content;
-    }
-}
-@mixin desktop {
-    @media (min-width: 850px) {
-        @content;
-    }
-}
-
-.home-view {
-    .header {
-        background-color: var(--primary_color);
-        width: 100%;
-        padding: 7px 20px;
-        @include desktop {
-            display: flex;
-        }
-        display: none;
-        justify-content: space-between;
-    }
-    .nav {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        position: absolute;
-        top: 0;
-        z-index: 10;
-
-        .nav-card {
-            max-width: 1500px;
-            width: 85%;
-            height: max-content;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            @include desktop {
-                padding: 0 60px;
-                min-width: 850px;
-            }
-            @include mobile {
-                min-width: 100%;
-                padding: 10px 20px;
-            }
-            padding: 0 30px;
-            min-width: 700px;
-            background-color: var(--color_white);
-            transition: all 0.3s ease;
-
-            .logo {
-                width: 170px;
-                overflow: hidden;
-            }
-            .nav-button {
-                @include mobile {
-                    display: block;
-                }
-                display: none;
-
-                i {
-                    transition: rotate 0.3s ease
-                }
-                &:hover {
-                    i {
-                        rotate: 90deg;
-                    }
-                    .nav-button-drop {
-                        display: flex;
-                    }
-                }
-                .nav-button-drop {
-                    display: none;
-                    flex-direction: column;
-                    position: absolute;
-                    top: 100%;
-                    right: 0;
-                    background-color: var(--color_white);
-                    animation-name: drop;
-                    animation-duration: 0.5s;
-
-                    @keyframes drop {
-                        from {
-                            opacity: 0;
-                            top: 70%;
-                        }
-
-                        to {
-                            opacity: 1;
-                            top: 100%;
-                        }
-                    }
-                    a {
-                        border-bottom: 1px solid var(--border_color);
-                        padding: 10px 40px 10px 20px;
-                        font-size: 15px;
-                    }
-                }
-            }
-            .nav-list {
-                @include mobile {
-                    display: none;
-                }
-                display: flex;
-                @include desktop {
-                    gap: 50px;
-                }
-                gap: 20px;
-            
-                .nav-item {
-                    height: 100px;
-                    display: grid;
-                    cursor: pointer;
-                    position: relative;
-
-                    &:hover {
-                        .item-top {
-                            color: var(--primary_color);
-                        }
-                        .nav-item-drop {
-                            display: flex;
-                        }
-                    }
-                    .item-top {
-                        display: flex;
-                        align-items: center;
-                        justify-content: space-between;
-                        gap: 5px;
-                    }
-                    .nav-item-drop {
-                        display: none;
-                        flex-direction: column;
-                        position: absolute;
-                        top: 100%;
-                        margin-top: 2px;
-                        background-color: var(--color_white);
-                        border-radius: 10px;
-                        min-width: 200px;
-                        animation-name: drop;
-                        animation-duration: 0.5s;
-
-                        @keyframes drop {
-                            from {
-                                opacity: 0;
-                                top: 70%;
-                            }
-                            to {
-                                opacity: 1;
-                                top: 100%;
-                            }
-                        }
-                        a {
-                            padding: 15px 25px;
-                            border-bottom: 1px solid var(--border_color);
-                            transition: all 0.3s ease;
-
-                            &:hover {
-                                color: var(--primary_color);
-                                padding-left: 35px;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
+@import '../assets/css/mixins.scss';
 
 .infor-view {
-    background: url('../assets/background_infor.jpg');
+    background: url('../assets/background/home_infor.jpg');
     background-size: cover;
     background-position: center;
     padding: 70px 0;
@@ -797,7 +529,7 @@ $(window).scroll(() => {
     display: flex;
     padding: 70px 0;
     justify-content: center;
-    background: url('../assets/background_gallery.jpg');
+    background: url('../assets/background/home_gallery.jpg');
     background-size: cover;
     background-position: center;
 
