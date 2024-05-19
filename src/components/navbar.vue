@@ -14,7 +14,7 @@ $(window).scroll(() => {
 <template>
     <div class="nav">
         <div class="nav-card">
-            <router-link to="/"class="logo">
+            <router-link to="/" class="logo">
                 <img src="../assets/logo.png">
             </router-link>
             <div class="nav-list">
