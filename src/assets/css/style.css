@@ -46,7 +46,9 @@
 }
 
 /* -----------------size---------------- */
-
+.fs-0 {
+  font-size: calc(40px + .5vw);
+}
 /* ----------------text---------------- */
 a {
   text-decoration: none;
@@ -54,10 +56,10 @@ a {
   margin: 0;
   color: black;
   font-weight: 500;
-  font-size: 1.2rem;
+  font-size: calc(.8rem + .5vw);
 }
 a:hover {
-  color: black;
+  color: var(--primary_color) !important;
 }
 
 p, b {
@@ -96,5 +98,23 @@ button {
 
 button:hover {
   color: white;
+  background-image: linear-gradient(to right, rgb(35, 175, 77) , rgb(56, 228, 122));
+}
+
+.button-custom {
+  padding: 10px 40px;
+  border-radius: 20px;
+  background-color: #EFF4F8;
+  border: 0;
+  color: var(--primary_color);
+  font-weight: 700;
+  transition: all 0.3s ease;
+  border: 1px solid var(--primary_color);
+  width: max-content;
+  font-size: 16px;
+}
+
+.button-custom:hover {
+  color: white !important;
   background-image: linear-gradient(to right, rgb(35, 175, 77) , rgb(56, 228, 122));
 }

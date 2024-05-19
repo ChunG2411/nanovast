@@ -1,67 +1,70 @@
 <script setup>
+$(window).scroll(() => {
+    if ($(window).scrollTop() > 180) {
+        document.querySelector('.nav').style.position = 'fixed'
+        document.querySelector('.nav .nav-card').style.width = '100%'
+    }
+    else {
+        document.querySelector('.nav').style.position = 'absolute'
+        document.querySelector('.nav .nav-card').style.width = '85%'
+    }
+})
 </script>
 
 <template>
     <div class="nav">
         <div class="nav-card">
-            <div class="logo">
+            <router-link to="/"class="logo">
                 <img src="../assets/logo.png">
-            </div>
+            </router-link>
             <div class="nav-list">
                 <div class="nav-item">
                     <div class="item-top">
-                        <router-link to="/">Home</router-link>
+                        <router-link to="/about">Giới thiệu</router-link>
                     </div>
                 </div>
                 <div class="nav-item">
                     <div class="item-top">
-                        <a>Pages</a>
+                        <a>Sản phẩm</a>
                         <i class="fa-solid fa-chevron-down mt-1"></i>
                     </div>
                     <div class="nav-item-drop">
-                        <a href="#infor">Về chúng tôi</a>
-                        <a href="#member">Thành viên</a>
-                        <a style="border: 0;" href="#gallery">Thư viện</a>
+                        <a>Sản phẩm 1</a>
+                        <a>Sản phẩm 2</a>
+                        <a style="border: 0;">Sản phẩm 3</a>
                     </div>
                 </div>
                 <div class="nav-item">
                     <div class="item-top">
-                        <a>Product</a>
-                        <i class="fa-solid fa-chevron-down mt-1"></i>
-                    </div>
-                    <div class="nav-item-drop">
-                        <a>Product 1</a>
-                        <a>Product 2</a>
-                        <a style="border: 0;">Product 3</a>
+                        <router-link to="/blog">Bài viết</router-link>
                     </div>
                 </div>
                 <div class="nav-item">
                     <div class="item-top">
-                        <a>Blog</a>
-                        <i class="fa-solid fa-chevron-down mt-1"></i>
-                    </div>
-                    <div class="nav-item-drop">
-                        <a>Blog 1</a>
-                        <a>Blog 2</a>
-                        <a style="border: 0;">Blog 3</a>
+                        <router-link to="/">Thông tin</router-link>
                     </div>
                 </div>
                 <div class="nav-item">
                     <div class="item-top">
-                        <router-link to="/about">Contact Us</router-link>
+                        <router-link to="/contact">Liên hệ</router-link>
                     </div>
                 </div>
             </div>
             <div class="nav-button">
                 <i class="fa-solid fa-bars primary fs-3"></i>
                 <div class="nav-button-drop">
-                    <router-link to="/">Home</router-link>
-                    <a href="#infor">Về chúng tôi</a>
-                    <a href="#member">Thành viên</a>
-                    <a href="#gallery">Thư viện</a>
-                    <a>Product</a>
-                    <a>Blog</a>
-                    <router-link to="/about">Contact Us</router-link>
+                    <router-link to="/about">Giới thiệu</router-link>
+                    <a class="drop-1">
+                        Sản phẩm
+                        <div class="drop-2">
+                            <a>Sản phẩm 1</a>
+                            <a>Sản phẩm 3</a>
+                            <a>Sản phẩm 2</a>
+                        </div>
+                    </a>
+                    <router-link to="/blog">Bài viết</router-link>
+                    <router-link to="/">Thông tin</router-link>
+                    <router-link to="/contact" style="border: 0;">Liên hệ</router-link>
                 </div>
             </div>
         </div>
@@ -72,61 +75,155 @@
 @import '../assets/css/mixins.scss';
 
 .nav {
-        width: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: -1px;
+    z-index: 20;
+
+    .nav-card {
+        max-width: 1500px;
+        height: max-content;
         display: flex;
-        justify-content: center;
-        position: absolute;
-        top: 0;
-        z-index: 10;
+        justify-content: space-between;
+        align-items: center;
+        @include desktop {
+            padding: 0 60px;
+            min-width: 850px;
+            width: 90%;
+        }
+        @include mobile {
+            min-width: 100%;
+            padding: 10px 20px;
+        }
+        width: 100%;
+        padding: 0 30px;
+        min-width: 700px;
+        background-color: var(--color_white);
+        transition: all 0.3s ease;
 
-        .nav-card {
-            max-width: 1500px;
-            width: 85%;
-            height: max-content;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            @include desktop {
-                padding: 0 60px;
-                min-width: 850px;
-            }
+        .logo {
+            width: calc(120px + 5vw);
+            overflow: hidden;
+        }
+        .nav-button {
             @include mobile {
-                min-width: 100%;
-                padding: 10px 20px;
+                display: block;
             }
-            padding: 0 30px;
-            min-width: 700px;
-            background-color: var(--color_white);
-            transition: all 0.3s ease;
+            display: none;
 
-            .logo {
-                width: 170px;
-                overflow: hidden;
+            i {
+                transition: rotate 0.3s ease
             }
-            .nav-button {
-                @include mobile {
-                    display: block;
-                }
-                display: none;
-
+            &:hover {
                 i {
-                    transition: rotate 0.3s ease
+                    rotate: 90deg;
                 }
-                &:hover {
-                    i {
-                        rotate: 90deg;
+                .nav-button-drop {
+                    display: flex;
+                }
+            }
+            .nav-button-drop {
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                top: 100%;
+                right: 0;
+                background-color: var(--color_white);
+                animation-name: drop;
+                animation-duration: 0.5s;
+                min-width: 130px;
+                width: max-content;
+
+                @keyframes drop {
+                    from {
+                        opacity: 0;
+                        top: 70%;
                     }
-                    .nav-button-drop {
+                    to {
+                        opacity: 1;
+                        top: 100%;
+                    }
+                }
+                a {
+                    border-bottom: 1px solid var(--border_color);
+                    padding: 10px 20px;
+                    font-size: 15px;
+                }
+                .drop-1 {
+                    position: relative;
+
+                    &:hover {
+                        .drop-2 {
+                            display: flex;
+                        }
+                    }
+                    .drop-2 {
+                        display: none;
+                        flex-direction: column;
+                        position: absolute;
+                        width: max-content;
+                        top: 0;
+                        right: 100%;
+                        background-color: var(--color_white);
+                        animation-name: show;
+                        animation-duration: 0.5s;
+                        color: black;
+
+                        @keyframes show {
+                            from {
+                                opacity: 0;
+                                right: 70%;
+                            }
+                            to {
+                                opacity: 1;
+                                right: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .nav-list {
+            @include mobile {
+                display: none;
+            }
+            display: flex;
+            @include desktop {
+                gap: 50px;
+            }
+            gap: 20px;
+        
+            .nav-item {
+                height: 100px;
+                display: grid;
+                cursor: pointer;
+                position: relative;
+
+                &:hover {
+                    .item-top {
+                        color: var(--primary_color);
+                    }
+                    .nav-item-drop {
                         display: flex;
                     }
                 }
-                .nav-button-drop {
+                .item-top {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    gap: 5px;
+                }
+                .nav-item-drop {
                     display: none;
                     flex-direction: column;
                     position: absolute;
                     top: 100%;
-                    right: 0;
+                    margin-top: 2px;
                     background-color: var(--color_white);
+                    border-radius: 10px;
+                    min-width: 200px;
                     animation-name: drop;
                     animation-duration: 0.5s;
 
@@ -135,84 +232,24 @@
                             opacity: 0;
                             top: 70%;
                         }
-
                         to {
                             opacity: 1;
                             top: 100%;
                         }
                     }
                     a {
+                        padding: 15px 25px;
                         border-bottom: 1px solid var(--border_color);
-                        padding: 10px 40px 10px 20px;
-                        font-size: 15px;
-                    }
-                }
-            }
-            .nav-list {
-                @include mobile {
-                    display: none;
-                }
-                display: flex;
-                @include desktop {
-                    gap: 50px;
-                }
-                gap: 20px;
-            
-                .nav-item {
-                    height: 100px;
-                    display: grid;
-                    cursor: pointer;
-                    position: relative;
+                        transition: all 0.3s ease;
 
-                    &:hover {
-                        .item-top {
+                        &:hover {
                             color: var(--primary_color);
-                        }
-                        .nav-item-drop {
-                            display: flex;
-                        }
-                    }
-                    .item-top {
-                        display: flex;
-                        align-items: center;
-                        justify-content: space-between;
-                        gap: 5px;
-                    }
-                    .nav-item-drop {
-                        display: none;
-                        flex-direction: column;
-                        position: absolute;
-                        top: 100%;
-                        margin-top: 2px;
-                        background-color: var(--color_white);
-                        border-radius: 10px;
-                        min-width: 200px;
-                        animation-name: drop;
-                        animation-duration: 0.5s;
-
-                        @keyframes drop {
-                            from {
-                                opacity: 0;
-                                top: 70%;
-                            }
-                            to {
-                                opacity: 1;
-                                top: 100%;
-                            }
-                        }
-                        a {
-                            padding: 15px 25px;
-                            border-bottom: 1px solid var(--border_color);
-                            transition: all 0.3s ease;
-
-                            &:hover {
-                                color: var(--primary_color);
-                                padding-left: 35px;
-                            }
+                            padding-left: 35px;
                         }
                     }
                 }
             }
         }
     }
+}
 </style>

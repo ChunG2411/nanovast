@@ -6,7 +6,7 @@ import Preveiw from '../components/preveiw.vue'
 import Header from '../components/header.vue'
 import Navbar from '../components/navbar.vue'
 
-import image_gallery_1 from '../assets/gallery1.jpg'
+import image_gallery_1 from '../assets/image/gallery/gallery1.jpg'
 
 import { reactive } from 'vue'
 
@@ -21,6 +21,8 @@ function showImage(src) {
     show_image.status = true
     show_image.src = src
 }
+
+window.scrollTo(0, 0);
 
 </script>
 
@@ -52,7 +54,7 @@ function showImage(src) {
                 <div class="infor-list">
                     <div>
                         <div class="icon mb-2">
-                            <img src="../assets/icon1.jpg">
+                            <img src="../assets/image/icon/icon1.jpg">
                         </div>
                         <div>
                             <p class="fs-5 fw-bold">Certified Organic Standards</p>
@@ -61,7 +63,7 @@ function showImage(src) {
                     </div>
                     <div>
                         <div class="icon mb-2">
-                            <img src="../assets/icon1.jpg">
+                            <img src="../assets/image/icon/icon1.jpg">
                         </div>
                         <div>
                             <p class="fs-5 fw-bold">Certified Organic Standards</p>
@@ -70,7 +72,7 @@ function showImage(src) {
                     </div>
                     <div>
                         <div class="icon mb-2">
-                            <img src="../assets/icon1.jpg">
+                            <img src="../assets/image/icon/icon1.jpg">
                         </div>
                         <div>
                             <p class="fs-5 fw-bold">Certified Organic Standards</p>
@@ -79,7 +81,7 @@ function showImage(src) {
                     </div>
                     <div>
                         <div class="icon mb-2">
-                            <img src="../assets/icon1.jpg">
+                            <img src="../assets/image/icon/icon1.jpg">
                         </div>
                         <div>
                             <p class="fs-5 fw-bold">Certified Organic Standards</p>
@@ -101,7 +103,7 @@ function showImage(src) {
             <div class="member-list">
                 <div class="member-item">
                     <div class="member-img">
-                        <img src="../assets/member1.jpg">
+                        <img src="../assets/image/member/member1.jpg">
                     </div>
                     <p class="fs-4 fw-bold mt-3">Alex smith</p>
                     <p>Co Founder</p>
@@ -114,7 +116,7 @@ function showImage(src) {
                 </div>
                 <div class="member-item">
                     <div class="member-img">
-                        <img src="../assets/member1.jpg">
+                        <img src="../assets/image/member/member1.jpg">
                     </div>
                     <p class="fs-4 fw-bold mt-3">Alex smith</p>
                     <p>Co Founder</p>
@@ -127,7 +129,7 @@ function showImage(src) {
                 </div>
                 <div class="member-item">
                     <div class="member-img">
-                        <img src="../assets/member1.jpg">
+                        <img src="../assets/image/member/member1.jpg">
                     </div>
                     <p class="fs-4 fw-bold mt-3">Alex smith</p>
                     <p>Co Founder</p>
@@ -140,7 +142,7 @@ function showImage(src) {
                 </div>
                 <div class="member-item">
                     <div class="member-img">
-                        <img src="../assets/member1.jpg">
+                        <img src="../assets/image/member/member1.jpg">
                     </div>
                     <p class="fs-4 fw-bold mt-3">Alex smith</p>
                     <p>Co Founder</p>
@@ -272,18 +274,14 @@ function showImage(src) {
                                 <i class="far fa-user primary"></i>
                                 <p class="primary">Emma Grant</p>
                             </div>
-                            <div class="d-flex align-items-center gap-2">
-                                <i class="fas fa-comment primary"></i>
-                                <p class="primary">16</p>
-                            </div>
                         </div>
                         <div>
                             <p class="fs-5 fw-bold">This Season Increased Yield Of Honey</p>
                             <p>Conveniently innovate user-centric benefits architectures rapidiously builmortar testing
                                 manufacture distinctively.</p>
                         </div>
-                        <div class="mt-3">
-                            <button>Read more</button>
+                        <div class="mt-4">
+                            <router-link class="button-custom" to="/blog/1">Read more</router-link>
                         </div>
                     </div>
                 </div>
@@ -301,18 +299,14 @@ function showImage(src) {
                                 <i class="far fa-user primary"></i>
                                 <p class="primary">Emma Grant</p>
                             </div>
-                            <div class="d-flex align-items-center gap-2">
-                                <i class="fas fa-comment primary"></i>
-                                <p class="primary">16</p>
-                            </div>
                         </div>
                         <div>
                             <p class="fs-5 fw-bold">This Season Increased Yield Of Honey</p>
                             <p>Conveniently innovate user-centric benefits architectures rapidiously builmortar testing
                                 manufacture distinctively.</p>
                         </div>
-                        <div class="mt-3">
-                            <button>Read more</button>
+                        <div class="mt-4">
+                            <router-link class="button-custom" to="/blog/2">Read more</router-link>
                         </div>
                     </div>
                 </div>
@@ -330,18 +324,14 @@ function showImage(src) {
                                 <i class="far fa-user primary"></i>
                                 <p class="primary">Emma Grant</p>
                             </div>
-                            <div class="d-flex align-items-center gap-2">
-                                <i class="fas fa-comment primary"></i>
-                                <p class="primary">16</p>
-                            </div>
                         </div>
                         <div>
                             <p class="fs-5 fw-bold">This Season Increased Yield Of Honey</p>
                             <p>Conveniently innovate user-centric benefits architectures rapidiously builmortar testing
                                 manufacture distinctively.</p>
                         </div>
-                        <div class="mt-3">
-                            <button>Read more</button>
+                        <div class="mt-4">
+                            <router-link class="button-custom" to="/blog/3">Read more</router-link>
                         </div>
                     </div>
                 </div>

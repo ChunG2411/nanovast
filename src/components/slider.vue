@@ -252,7 +252,7 @@ if ($('.main-content .slideshow').length > 1) {
                             </div>
                         </div>
                         <div class="image-container">
-                            <img src="../assets/slide1.jpg" alt="" class="image" />
+                            <img src="../assets/image/slide/slide1.jpg" alt="" class="image" />
                         </div>
                     </div>
                     <div class="slide">
@@ -268,7 +268,7 @@ if ($('.main-content .slideshow').length > 1) {
                             </div>
                         </div>
                         <div class="image-container">
-                            <img src="../assets/slide2.jpg" alt="" class="image" />
+                            <img src="../assets/image/slide/slide2.jpg" alt="" class="image" />
                         </div>
                     </div>
                     <div class="slide">
@@ -284,7 +284,7 @@ if ($('.main-content .slideshow').length > 1) {
                             </div>
                         </div>
                         <div class="image-container">
-                            <img src="../assets/slide3.jpg" alt="" class="image" />
+                            <img src="../assets/image/slide/slide3.jpg" alt="" class="image" />
                         </div>
                     </div>
                     <div class="slide">
@@ -300,7 +300,7 @@ if ($('.main-content .slideshow').length > 1) {
                             </div>
                         </div>
                         <div class="image-container">
-                            <img src="../assets/slide4.jpg" alt="" class="image" />
+                            <img src="../assets/image/slide/slide4.jpg" alt="" class="image" />
                         </div>
                     </div>
                 </div>

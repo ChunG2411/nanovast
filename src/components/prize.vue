@@ -14,32 +14,32 @@ import 'swiper/css';
             }" :modules="[Autoplay]" :speed="1000">
             <swiper-slide>
                 <div class="icon-slot">
-                    <img src="../assets/price1.png">
+                    <img src="../assets/image/prize/prize1.png">
                 </div>
             </swiper-slide>
             <swiper-slide>
                 <div class="icon-slot">
-                    <img src="../assets/price1.png">
+                    <img src="../assets/image/prize/prize1.png">
                 </div>
             </swiper-slide>
             <swiper-slide>
                 <div class="icon-slot">
-                    <img src="../assets/price1.png">
+                    <img src="../assets/image/prize/prize1.png">
                 </div>
             </swiper-slide>
             <swiper-slide>
                 <div class="icon-slot">
-                    <img src="../assets/price1.png">
+                    <img src="../assets/image/prize/prize1.png">
                 </div>
             </swiper-slide>
             <swiper-slide>
                 <div class="icon-slot">
-                    <img src="../assets/price1.png">
+                    <img src="../assets/image/prize/prize1.png">
                 </div>
             </swiper-slide>
             <swiper-slide>
                 <div class="icon-slot">
-                    <img src="../assets/price1.png">
+                    <img src="../assets/image/prize/prize1.png">
                 </div>
             </swiper-slide>
         </swiper>                
@@ -60,11 +60,5 @@ import 'swiper/css';
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.icon-slot img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
 }
 </style>

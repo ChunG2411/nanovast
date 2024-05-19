@@ -64,6 +64,9 @@ $(window).scroll(()=>{
     padding: 70px 70px 30px 70px;
     background: url('../assets/background/home_gallery.jpg');
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
     .footer-content {
         @include mobile {
@@ -72,6 +75,7 @@ $(window).scroll(()=>{
         }
         display: flex;
         justify-content: space-between;
+        max-width: 1000px;
 
         .footer-left{
             @include mobile {
@@ -79,7 +83,7 @@ $(window).scroll(()=>{
             }
             width: 40%;
             .logo {
-                width: 200px;
+                width: calc(100px + 10vw);
             }
         }
         

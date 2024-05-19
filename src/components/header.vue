@@ -1,14 +1,4 @@
 <script setup>
-$(window).scroll(() => {
-    if ($(window).scrollTop() > 200) {
-        document.querySelector('.nav').style.position = 'fixed'
-        document.querySelector('.nav .nav-card').style.width = '100%'
-    }
-    else {
-        document.querySelector('.nav').style.position = 'absolute'
-        document.querySelector('.nav .nav-card').style.width = '85%'
-    }
-})
 </script>
 
 <template>
