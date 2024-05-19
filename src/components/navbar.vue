@@ -56,11 +56,11 @@ $(window).scroll(() => {
                     <router-link to="/about">Giới thiệu</router-link>
                     <a class="drop-1">
                         <span>Sản phẩm</span>
-                        <div class="drop-2">
+                        <span class="drop-2">
                             <a>Sản phẩm 1</a>
                             <a>Sản phẩm 3</a>
                             <a>Sản phẩm 2</a>
-                        </div>
+                        </span>
                     </a>
                     <router-link to="/blog">Bài viết</router-link>
                     <router-link to="/">Thông tin</router-link>
