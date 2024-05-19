@@ -25,9 +25,10 @@ window.scrollTo(0, 0);
                     <img src="../assets/image/blog/blog1.jpg">
                 </div>
                 <div class="content">
-                    <!-- <p>Admin: <span class="primary">Alex Smith</span> Date: <span class="primary">14 April 2018</span></p> -->
+                    <p>Admin: <span class="primary">Alex Smith</span> Date: <span class="primary">14 April 2018</span></p>
                     <p class="header-custom fs-4 fw-bold">Ectain World Strain Blog Tegc Actuaze Wide World Strateic</p>
-                    <p class="body-custom">Qnteate Supple Chan Though Marke Poston Bestng Practces Chan Throuh Marke Postonn Supple Chan Though Marke Poston Bestng Practces arke Postonn is Bestn Practces eractve Fashion Fashion Economically And Sound Qources For
+                    <p class="body-custom">Qnteate Supple Chan Though Marke Poston Bestng Practces Chan Throuh Marke Postonn
+                        Supple Chan Though Marke Poston Bestng Practces arke Postonn is Bestn Practces eractve Fashion Fashion Economically And Sound Qources For
                     </p>
                     <router-link class="button-custom mt-3" to="/blog/1">Read more</router-link>
                 </div>
@@ -37,9 +38,10 @@ window.scrollTo(0, 0);
                     <img src="../assets/image/blog/blog1.jpg">
                 </div>
                 <div class="content">
-                    <!-- <p>Admin: <span class="primary">Alex Smith</span> Date: <span class="primary">14 April 2018</span></p> -->
+                    <p>Admin: <span class="primary">Alex Smith</span> Date: <span class="primary">14 April 2018</span></p>
                     <p class="header-custom fs-4 fw-bold">Ectain World Strain Blog Tegc Actuaze Wide World Strateic</p>
-                    <p class="body-custom">Qnteate Supple Chan Though Marke Poston Bestng Practces Chan Throuh Marke Postonn Supple Chan Though Marke Poston Bestng Practces Chke Postonn is Bestn Practces eractve Fashion Fashion Economically And Sound Qources For
+                    <p class="body-custom">Qnteate Supple Chan Though Marke Poston Bestng Practces Chan Throuh Marke Postonn
+                        Supple Chan Though Marke Poston Bestng Practces Chke Postonn is Bestn Practces eractve Fashion Fashion Economically And Sound Qources For
                     </p>
                     <router-link class="button-custom mt-3" to="/blog/2">Read more</router-link>
                 </div>
@@ -49,9 +51,10 @@ window.scrollTo(0, 0);
                     <img src="../assets/image/blog/blog1.jpg">
                 </div>
                 <div class="content">
-                    <!-- <p>Admin: <span class="primary">Alex Smith</span> Date: <span class="primary">14 April 2018</span></p> -->
+                    <p>Admin: <span class="primary">Alex Smith</span> Date: <span class="primary">14 April 2018</span></p>
                     <p class="header-custom fs-4 fw-bold">Ectain World Strain Blog Tegc Actuaze Wide World Strateic</p>
-                    <p class="body-custom">Qnteate Supple Chan Though Marke Poston Bestng Practces Chan Throuh Marke Postonn Supple Chan Though Marke Poston Bestng Practces arke Postonn is Bestn Practces eractve Fashion Fashion Economically And Sound Qources For
+                    <p class="body-custom">Qnteate Supple Chan Though Marke Poston Bestng Practces Chan Throuh Marke Postonn
+                        Supple Chan Though Marke Poston Bestng Practces arke Postonn is Bestn Practces eractve Fashion Fashion Economically And Sound Qources For
                     </p>
                     <router-link class="button-custom mt-3" to="/blog/3">Read more</router-link>
                 </div>
@@ -61,9 +64,10 @@ window.scrollTo(0, 0);
                     <img src="../assets/image/blog/blog1.jpg">
                 </div>
                 <div class="content">
-                    <!-- <p>Admin: <span class="primary">Alex Smith</span> Date: <span class="primary">14 April 2018</span></p> -->
+                    <p>Admin: <span class="primary">Alex Smith</span> Date: <span class="primary">14 April 2018</span></p>
                     <p class="header-custom fs-4 fw-bold">Ectain World Strain Blog Tegc Actuaze Wide World Strateic</p>
-                    <p class="body-custom">Qnteate Supple Chan Though Marke Poston Bestng Practces Chan Throuh Marke Postonn Supple Chan Though Marke Poston Bestng Practces Chaine Postonn is Bestn Practces eractve Fashion Fashion Economically And Sound Qources For
+                    <p class="body-custom">Qnteate Supple Chan Though Marke Poston Bestng Practces Chan Throuh Marke Postonn
+                        Supple Chan Though Marke Poston Bestng Practces Chaine Postonn is Bestn Practces eractve Fashion Fashion Economically And Sound Qources For
                     </p>
                     <router-link class="button-custom mt-3" to="/blog/4">Read more</router-link>
                 </div>

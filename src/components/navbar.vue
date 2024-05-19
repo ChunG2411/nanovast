@@ -54,14 +54,14 @@ $(window).scroll(() => {
                 <i class="fa-solid fa-bars primary fs-3"></i>
                 <div class="nav-button-drop">
                     <router-link to="/about">Giới thiệu</router-link>
-                    <!-- <a class="drop-1">
-                        <span>Sản phẩm</span>
-                        <span class="drop-2">
+                    <a class="drop-1">
+                        Sản phẩm
+                        <div class="drop-2">
                             <a>Sản phẩm 1</a>
                             <a>Sản phẩm 3</a>
                             <a>Sản phẩm 2</a>
-                        </span>
-                    </a> -->
+                        </div>
+                    </a>
                     <router-link to="/blog">Bài viết</router-link>
                     <router-link to="/">Thông tin</router-link>
                     <router-link to="/contact" style="border: 0;">Liên hệ</router-link>
