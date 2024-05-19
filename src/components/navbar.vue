@@ -55,7 +55,7 @@ $(window).scroll(() => {
                 <div class="nav-button-drop">
                     <router-link to="/about">Giới thiệu</router-link>
                     <a class="drop-1">
-                        Sản phẩm
+                        <span>Sản phẩm</span>
                         <div class="drop-2">
                             <a>Sản phẩm 1</a>
                             <a>Sản phẩm 3</a>
