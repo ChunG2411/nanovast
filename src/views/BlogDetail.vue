@@ -25,7 +25,7 @@ window.scrollTo(0, 0);
                     <img src="../assets/image/blog/blog1.jpg">
                 </div>
                 <div class="content">
-                    <p>Admin: <span class="primary">Alex Smith</span> Date: <span class="primary">14 April 2018</span></p>
+                    <!-- <p>Admin: <span class="primary">Alex Smith</span> Date: <span class="primary">14 April 2018</span></p> -->
                     <p class="header-custom fs-4 fw-bold">Ectain World Strain Blog Tegc Actuaze Wide World Strateic</p>
                     <p>
                         Qnteate Supple Chan Though Marke Poston Bestng Practces Chan Throuh Marke Postonn Supple Chan Though Marke Poston Bestng Practces Chaine Postonn is Bestn Practces eractve Fashion Fashion Economically And Sound Qources For asdas a asdsdsa dasd.
