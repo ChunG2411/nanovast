@@ -25,7 +25,7 @@ const pagination = {
                         <img src="../assets/image/slide/slide1.jpg">
                     </div>
                     <div class="content-slot">
-                        <p class="white fs-0 content-head">High Quality And Wholesome Products From Sheep</p>
+                        <p class="white fs-0 fw-bold content-head">High Quality And Wholesome Products From Sheep</p>
                         <p class="white fs-4 mt-3 content-body">Compellingly Streamline Web-Enabled Portals For High Standards Income Completely Productivate Optimal Sources Strategic</p>
                     </div>
                 </div>
@@ -37,7 +37,7 @@ const pagination = {
                         <img src="../assets/image/slide/slide2.jpg">
                     </div>
                     <div class="content-slot">
-                        <p class="white fs-0 content-head">High Quality And Wholesome Products From Sheep</p>
+                        <p class="white fs-0 fw-bold content-head">High Quality And Wholesome Products From Sheep</p>
                         <p class="white fs-4 mt-3 content-body">Compellingly Streamline Web-Enabled Portals For High Standards Income Completely Productivate Optimal Sources Strategic</p>
                     </div>
                 </div>
@@ -49,7 +49,7 @@ const pagination = {
                         <img src="../assets/image/slide/slide3.jpg">
                     </div>
                     <div class="content-slot">
-                        <p class="white fs-0 content-head">High Quality And Wholesome Products From Sheep</p>
+                        <p class="white fs-0 fw-bold content-head">High Quality And Wholesome Products From Sheep</p>
                         <p class="white fs-4 mt-3 content-body">Compellingly Streamline Web-Enabled Portals For High Standards Income Completely Productivate Optimal Sources Strategic</p>
                     </div>
                 </div>
@@ -61,7 +61,7 @@ const pagination = {
                         <img src="../assets/image/slide/slide4.jpg">
                     </div>
                     <div class="content-slot">
-                        <p class="white fs-0 content-head">High Quality And Wholesome Products From Sheep</p>
+                        <p class="white fs-0 fw-bold content-head">High Quality And Wholesome Products From Sheep</p>
                         <p class="white fs-4 mt-3 content-body">Compellingly Streamline Web-Enabled Portals For High Standards Income Completely Productivate Optimal Sources Strategic</p>
                     </div>
                 </div>
@@ -79,6 +79,9 @@ const pagination = {
 
     .slide-card {
         width: 100%;
+        @include mobile {
+            height: 600px;
+        }
         height: 700px;
         position: relative;
 
@@ -102,19 +105,34 @@ const pagination = {
         }
         .content-slot {
             width: 100%;
-            height: 100%;
+            height: 90%;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
             position: absolute;
             z-index: 10;
-            top: 0;
+            top: 10%;
             left: 0;
             text-align: center;
 
-            .content-head, .content-body {
-                width: 70%;
+            .content-head {
+                @include desktop {
+                    width: 70%;
+                }
+                @include mobile {
+                    font-size: 35px !important;
+                }
+                width: 90%;
+            }
+            .content-body {
+                @include desktop {
+                    width: 70%;
+                }
+                @include mobile {
+                    font-size: 20px !important;
+                }
+                width: 90%;
             }
         }
     }
