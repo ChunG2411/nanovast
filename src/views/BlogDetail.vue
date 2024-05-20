@@ -6,10 +6,15 @@ import data_json from '../assets/data/data.json'
 import image_1 from '../assets/image/blog/blog1.jpg'
 
 import { useRoute } from 'vue-router';
+import { watch } from 'vue'
 
 
 const route = useRoute()
 var data = data_json[(parseInt(route.params.id) - 1)]
+
+watch(()=>route.params.id, (newValue, _)=> {
+    data = data_json[(parseInt(newValue) - 1)]
+})
 
 window.scrollTo(0, 0);
 
