@@ -1,5 +1,5 @@
 <script setup>
-import Slider from '../components/slider.vue'
+import Slider from '../components/slide.vue'
 import Prize from '../components/prize.vue'
 import Footer from '../components/footer.vue'
 import Preveiw from '../components/preveiw.vue'

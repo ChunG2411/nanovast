@@ -63,7 +63,7 @@ window.scrollTo(0, 0);
     <div class="map-veiw">
         <div class="map-content">
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3724.0823738602735!2d105.85307655982645!3d21.029389773192833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1716091539110!5m2!1svi!2s"
-                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
             </iframe>
         </div>
     </div>
@@ -110,7 +110,7 @@ window.scrollTo(0, 0);
             flex-direction: column;
             gap: 30px;
             @include desktop {
-                min-width: 500px;
+                min-width: 600px;
             }
 
             .input-group-custom {
@@ -144,6 +144,7 @@ window.scrollTo(0, 0);
             flex-direction: column;
             gap: 20px;
             height: max-content;
+            max-width: 600px;
 
             .icon {
                 background-color: var(--primary_color);
@@ -164,12 +165,15 @@ window.scrollTo(0, 0);
     display: flex;
     justify-content: center;
     padding: 50px 0 70px 0;
-
+    
     .map-content {
         @include desktop {
             width: 70%;
+            min-height: 500px;
         }
         width: 90%;
+        height: 400px;
+        max-width: 900px;
         border: 1px solid var(--border_color);
     }
 }

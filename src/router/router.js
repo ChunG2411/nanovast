@@ -18,6 +18,11 @@ const routes = [
         path: "/contact",
         component: Contact,
     },
+    // {
+    //     name: "infor",
+    //     path: "/information",
+    //     component: slider1,
+    // },
     {
         name: "blog",
         path: "/blog",
