@@ -2,9 +2,34 @@
 import Header from '../components/header.vue'
 import Navbar from '../components/navbar.vue'
 import Footer from '../components/footer.vue'
+import data_json from '../assets/data/data.json'
+import image_1 from '../assets/image/blog/blog1.jpg'
+
+import { useRoute } from 'vue-router';
+
+
+const route = useRoute()
+var data = data_json[(parseInt(route.params.id) - 1)]
 
 window.scrollTo(0, 0);
 
+function getImage(id) {
+    if (id=="1") {
+        return image_1
+    }
+    else if (id=="2") {
+        return image_1
+    }
+    else if (id=="3") {
+        return image_1
+    }
+    else if (id=="4") {
+        return image_1
+    }
+    else if (id=="5") {
+        return image_1
+    }
+}
 </script>
 
 <template>
@@ -22,27 +47,12 @@ window.scrollTo(0, 0);
         <div class="blog-content">
             <div class="blog-item">
                 <div class="blog-img">
-                    <img src="../assets/image/blog/blog1.jpg">
+                    <img :src="getImage(data.id)">
                 </div>
                 <div class="content">
                     <p>Admin: <span class="primary">Alex Smith</span> Date: <span class="primary">14 April 2018</span></p>
-                    <p class="header-custom fs-4 fw-bold">Ectain World Strain Blog Tegc Actuaze Wide World Strateic</p>
-                    <p>
-                        Qnteate Supple Chan Though Marke Poston Bestng Practces Chan Throuh Marke Postonn Supple Chan Though Marke
-                        Poston Bestng Practces Chaine Postonn is Bestn Practces eractve Fashion Fashion Economically And Sound Qources For asdas a asdsdsa dasd.
-                    </p>
-                    <p>
-                        Qnteate Supple Chan Though Marke Poston Bestng Practces Chan Throuh Marke Postonn Supple Chan Though
-                        Marke Poston Bestng Practces Chaine Postonn is Bestn Practces eractve Fashion Fashion Economically And Sound Qources For asdas a asdsdsa dasd.
-                    </p>
-                    <p>
-                        Qnteate Supple Chan Though Marke Poston Bestng Practces Chan Throuh Marke Postonn Supple Chan Though
-                        Marke Poston Bestng Practces Chaine Postonn is Bestn Practces eractve Fashion Fashion Economically And Sound Qources For asdas a asdsdsa dasd.
-                    </p>
-                    <p>
-                        Qnteate Supple Chan Though Marke Poston Bestng Practces Chan Throuh Marke Postonn Supple Chan Though Marke
-                        Poston Bestng Practces Chaine Postonn is Bestn Practces eractve Fashion Fashion Economically And Sound Qources For asdas a asdsdsa dasd.
-                    </p>
+                    <p class="header-custom fs-4 fw-bold">{{ data.header }}</p>
+                    <p v-for="i in data.content">{{ i }}</p>
                 </div>
             </div>
         </div>

@@ -3,8 +3,31 @@ import Header from '../components/header.vue'
 import Navbar from '../components/navbar.vue'
 import Footer from '../components/footer.vue'
 
+import data_json from '../assets/data/data.json'
+import image_1 from '../assets/image/blog/blog1.jpg'
+
+
 window.scrollTo(0, 0);
 
+const data = data_json
+
+function getImage(id) {
+    if (id=="1") {
+        return image_1
+    }
+    else if (id=="2") {
+        return image_1
+    }
+    else if (id=="3") {
+        return image_1
+    }
+    else if (id=="4") {
+        return image_1
+    }
+    else if (id=="5") {
+        return image_1
+    }
+}
 </script>
 
 <template>
@@ -20,56 +43,15 @@ window.scrollTo(0, 0);
 
     <div class="blog-view">
         <div class="blog-content">
-            <div class="blog-item">
+            <div class="blog-item" v-for="i in data">
                 <div class="blog-img">
-                    <img src="../assets/image/blog/blog1.jpg">
+                    <img :src="getImage(i.id)">
                 </div>
                 <div class="content">
                     <p>Admin: <span class="primary">Alex Smith</span> Date: <span class="primary">14 April 2018</span></p>
-                    <p class="header-custom fs-4 fw-bold">Ectain World Strain Blog Tegc Actuaze Wide World Strateic</p>
-                    <p class="body-custom">Qnteate Supple Chan Though Marke Poston Bestng Practces Chan Throuh Marke Postonn
-                        Supple Chan Though Marke Poston Bestng Practces arke Postonn is Bestn Practces eractve Fashion Fashion Economically And Sound Qources For
-                    </p>
-                    <router-link class="button-custom mt-3" to="/blog/1">Read more</router-link>
-                </div>
-            </div>
-            <div class="blog-item">
-                <div class="blog-img">
-                    <img src="../assets/image/blog/blog1.jpg">
-                </div>
-                <div class="content">
-                    <p>Admin: <span class="primary">Alex Smith</span> Date: <span class="primary">14 April 2018</span></p>
-                    <p class="header-custom fs-4 fw-bold">Ectain World Strain Blog Tegc Actuaze Wide World Strateic</p>
-                    <p class="body-custom">Qnteate Supple Chan Though Marke Poston Bestng Practces Chan Throuh Marke Postonn
-                        Supple Chan Though Marke Poston Bestng Practces Chke Postonn is Bestn Practces eractve Fashion Fashion Economically And Sound Qources For
-                    </p>
-                    <router-link class="button-custom mt-3" to="/blog/2">Read more</router-link>
-                </div>
-            </div>
-            <div class="blog-item">
-                <div class="blog-img">
-                    <img src="../assets/image/blog/blog1.jpg">
-                </div>
-                <div class="content">
-                    <p>Admin: <span class="primary">Alex Smith</span> Date: <span class="primary">14 April 2018</span></p>
-                    <p class="header-custom fs-4 fw-bold">Ectain World Strain Blog Tegc Actuaze Wide World Strateic</p>
-                    <p class="body-custom">Qnteate Supple Chan Though Marke Poston Bestng Practces Chan Throuh Marke Postonn
-                        Supple Chan Though Marke Poston Bestng Practces arke Postonn is Bestn Practces eractve Fashion Fashion Economically And Sound Qources For
-                    </p>
-                    <router-link class="button-custom mt-3" to="/blog/3">Read more</router-link>
-                </div>
-            </div>
-            <div class="blog-item">
-                <div class="blog-img">
-                    <img src="../assets/image/blog/blog1.jpg">
-                </div>
-                <div class="content">
-                    <p>Admin: <span class="primary">Alex Smith</span> Date: <span class="primary">14 April 2018</span></p>
-                    <p class="header-custom fs-4 fw-bold">Ectain World Strain Blog Tegc Actuaze Wide World Strateic</p>
-                    <p class="body-custom">Qnteate Supple Chan Though Marke Poston Bestng Practces Chan Throuh Marke Postonn
-                        Supple Chan Though Marke Poston Bestng Practces Chaine Postonn is Bestn Practces eractve Fashion Fashion Economically And Sound Qources For
-                    </p>
-                    <router-link class="button-custom mt-3" to="/blog/4">Read more</router-link>
+                    <p class="header-custom fs-4 fw-bold">{{ i.header }}</p>
+                    <p class="body-custom">{{ i.content[0] }}</p>
+                    <router-link class="button-custom mt-3" :to="'/blog/' + i.id">Read more</router-link>
                 </div>
             </div>
         </div>
