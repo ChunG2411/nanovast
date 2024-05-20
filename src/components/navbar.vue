@@ -9,6 +9,19 @@ $(window).scroll(() => {
         document.querySelector('.nav .nav-card').style.width = '85%'
     }
 })
+
+var status = false
+function showChild() {
+    const child = document.querySelector('.drop-2')
+    if (status) {
+        child.style.display = 'none'
+        status = false
+    }
+    else {
+        child.style.display = 'flex'
+        status = true
+    }
+}
 </script>
 
 <template>
@@ -54,14 +67,14 @@ $(window).scroll(() => {
                 <i class="fa-solid fa-bars primary fs-3"></i>
                 <div class="nav-button-drop">
                     <router-link to="/about">Giới thiệu</router-link>
-                    <a class="drop-1">
-                        Sản phẩm
+                    <div class="drop-1">
+                        <a class="d-flex justify-content-between" @click="showChild">Sản phẩm <i class="fa-solid fa-chevron-right me-2"></i></a>
                         <div class="drop-2">
                             <a>Sản phẩm 1</a>
                             <a>Sản phẩm 3</a>
                             <a>Sản phẩm 2</a>
                         </div>
-                    </a>
+                    </div>
                     <router-link to="/blog">Bài viết</router-link>
                     <router-link to="/">Thông tin</router-link>
                     <router-link to="/contact" style="border: 0;">Liên hệ</router-link>
@@ -121,64 +134,44 @@ $(window).scroll(() => {
                     rotate: 90deg;
                 }
                 .nav-button-drop {
-                    display: flex;
+                    top: 100%;
                 }
             }
             .nav-button-drop {
-                display: none;
+                display: flex;
                 flex-direction: column;
                 position: absolute;
-                top: 100%;
+                top: -500px;
                 right: 0;
                 background-color: var(--color_white);
-                animation-name: drop;
-                animation-duration: 0.5s;
-                min-width: 130px;
-                width: max-content;
+                width: 100%;
+                box-shadow: 0 10px 15px rgba(188, 188, 188, 0.586);
+                z-index: -1;
+                transition: all 0.3s ease;
 
-                @keyframes drop {
-                    from {
-                        opacity: 0;
-                        top: 70%;
-                    }
-                    to {
-                        opacity: 1;
-                        top: 100%;
-                    }
-                }
                 a {
                     border-bottom: 1px solid var(--border_color);
-                    padding: 10px 20px;
+                    padding: 15px 30px;
                     font-size: 15px;
                 }
                 .drop-1 {
-                    position: relative;
+                    display: flex;
+                    flex-direction: column;
 
-                    &:hover {
-                        .drop-2 {
-                            display: flex;
-                        }
-                    }
                     .drop-2 {
                         display: none;
                         flex-direction: column;
-                        position: absolute;
-                        width: max-content;
-                        top: 0;
-                        right: 100%;
-                        background-color: var(--color_white);
                         animation-name: show;
                         animation-duration: 0.5s;
-                        color: black;
+                        width: 85%;
+                        margin-left: 15%;
 
                         @keyframes show {
                             from {
-                                opacity: 0;
-                                right: 70%;
+                                margin-left: 100%;
                             }
                             to {
-                                opacity: 1;
-                                right: 100%;
+                                margin-left: 15%;
                             }
                         }
                     }
