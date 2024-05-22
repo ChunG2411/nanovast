@@ -16,7 +16,7 @@ const pagination = {
 <template>
     <div class="slide">
         <swiper :slides-per-view="1" :space-between="-1" :loop="true" :pagination="pagination"
-            :autoplay="{ delay: 10000, disableOnInteraction: false,}"
+            :autoplay="{ delay: 4000, disableOnInteraction: false,}"
             :modules="[Autoplay, Pagination]" :speed="700">
             <swiper-slide>
                 <div class="slide-card">

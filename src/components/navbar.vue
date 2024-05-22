@@ -39,7 +39,7 @@ function showChild() {
                 <div class="nav-item">
                     <div class="item-top">
                         <a>Sản phẩm</a>
-                        <i class="fa-solid fa-chevron-down mt-1"></i>
+                        <i class="fa-solid fa-chevron-down"></i>
                     </div>
                     <div class="nav-item-drop">
                         <a>Sản phẩm 1</a>
@@ -92,7 +92,7 @@ function showChild() {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: -1px;
+    top: 0;
     z-index: 20;
 
     .nav-card {
@@ -199,7 +199,9 @@ function showChild() {
                         color: var(--primary_color);
                     }
                     .nav-item-drop {
-                        display: flex;
+                        visibility: visible;
+                        transform: rotateX(0);
+                        opacity: 1;
                     }
                 }
                 .item-top {
@@ -209,27 +211,21 @@ function showChild() {
                     gap: 5px;
                 }
                 .nav-item-drop {
-                    display: none;
+                    display: flex;
                     flex-direction: column;
                     position: absolute;
                     top: 100%;
-                    margin-top: 2px;
                     background-color: var(--color_white);
-                    border-radius: 10px;
+                    border-bottom-right-radius: 5px;
+                    border-bottom-left-radius: 5px;
                     min-width: 200px;
-                    animation-name: drop;
-                    animation-duration: 0.5s;
 
-                    @keyframes drop {
-                        from {
-                            opacity: 0;
-                            top: 70%;
-                        }
-                        to {
-                            opacity: 1;
-                            top: 100%;
-                        }
-                    }
+                    visibility: hidden;
+                    transform: rotateX(-75deg);
+                    transform-origin: 0% 0%;
+                    opacity: 0;
+                    transition: .3s;
+
                     a {
                         padding: 15px 25px;
                         border-bottom: 1px solid var(--border_color);
