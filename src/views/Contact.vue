@@ -92,6 +92,9 @@ window.scrollTo(0, 0);
     width: 100vw;
 
     .contact-content {
+        @include mobile {
+            width: 95%;
+        }
         width: 80%;
         display: flex;
         @include desktop {

@@ -85,7 +85,7 @@ function getImage(id) {
         @include desktop {
             width: 80%;
         }
-        width: 90%;
+        width: 95%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -132,7 +132,7 @@ function getImage(id) {
             .content {
                 padding: 30px 40px;
                 @include mobile {
-                    padding: 20px 30px;
+                    padding: 20px 20px;
                     margin-top: 150px;
                 }
                 margin-top: 330px;

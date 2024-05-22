@@ -189,6 +189,9 @@ window.scrollTo(0, 0);
     background-color: var(--color_white);
 
     .contact-content {
+        @include mobile {
+            width: 95%;
+        }
         width: 85%;
         display: flex;
         @include desktop {
@@ -256,7 +259,7 @@ window.scrollTo(0, 0);
         @include desktop {
             width: 80%;
         }
-        width: 90%;
+        width: 95%;
 
         .history-slide {
             width: 100%;

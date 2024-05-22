@@ -1,24 +1,27 @@
 <script setup>
 $(window).scroll(() => {
-    if ($(window).scrollTop() > 180) {
+    if ($(window).scrollTop() > 150) {
         document.querySelector('.nav').style.position = 'fixed'
         document.querySelector('.nav .nav-card').style.width = '100%'
     }
     else {
         document.querySelector('.nav').style.position = 'absolute'
-        document.querySelector('.nav .nav-card').style.width = '85%'
+        document.querySelector('.nav .nav-card').style.width = '90%'
     }
 })
 
 var status = false
 function showChild() {
     const child = document.querySelector('.drop-2')
+    console.log(child.clientHeight);
     if (status) {
-        child.style.display = 'none'
+        child.style.visibility = 'hidden'
+        child.style.height = 0
         status = false
     }
     else {
-        child.style.display = 'flex'
+        child.style.visibility = 'visible'
+        child.style.height = '160px'
         status = true
     }
 }
@@ -159,21 +162,14 @@ function showChild() {
                     flex-direction: column;
 
                     .drop-2 {
-                        display: none;
+                        display: flex;
                         flex-direction: column;
-                        animation-name: show;
-                        animation-duration: 0.5s;
                         width: 85%;
                         margin-left: 15%;
-
-                        @keyframes show {
-                            from {
-                                margin-left: 100%;
-                            }
-                            to {
-                                margin-left: 15%;
-                            }
-                        }
+                        height: 0;
+                        overflow: hidden;
+                        visibility: hidden;
+                        transition: .3s
                     }
                 }
             }
