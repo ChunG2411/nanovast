@@ -13,7 +13,6 @@ $(window).scroll(() => {
 var status = false
 function showChild() {
     const child = document.querySelector('.drop-2')
-    console.log(child.clientHeight);
     if (status) {
         child.style.visibility = 'hidden'
         child.style.height = 0
@@ -45,9 +44,9 @@ function showChild() {
                         <i class="fa-solid fa-chevron-down"></i>
                     </div>
                     <div class="nav-item-drop">
-                        <a>Sản phẩm 1</a>
-                        <a>Sản phẩm 2</a>
-                        <a style="border: 0;">Sản phẩm 3</a>
+                        <router-link to="/product/1">Máy lọc nước gia đình</router-link>
+                        <router-link to="/product/2">Máy lọc tổng</router-link>
+                        <router-link to="/product/3" style="border: 0;">Vật liệu lọc</router-link>
                     </div>
                 </div>
                 <div class="nav-item">
@@ -73,9 +72,9 @@ function showChild() {
                     <div class="drop-1">
                         <a class="d-flex justify-content-between" @click="showChild">Sản phẩm <i class="fa-solid fa-chevron-right me-2"></i></a>
                         <div class="drop-2">
-                            <a>Sản phẩm 1</a>
-                            <a>Sản phẩm 3</a>
-                            <a>Sản phẩm 2</a>
+                            <router-link to="/product/1">Máy lọc nước gia đình</router-link>
+                            <router-link to="/product/2">Máy lọc tổng</router-link>
+                            <router-link to="/product/3">Vật liệu lọc</router-link>
                         </div>
                     </div>
                     <router-link to="/blog">Bài viết</router-link>
@@ -215,6 +214,7 @@ function showChild() {
                     border-bottom-right-radius: 5px;
                     border-bottom-left-radius: 5px;
                     min-width: 200px;
+                    width: max-content;
 
                     visibility: hidden;
                     transform: rotateX(-75deg);

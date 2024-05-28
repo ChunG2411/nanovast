@@ -6,7 +6,7 @@ import Preveiw from '../components/preveiw.vue'
 import Header from '../components/header.vue'
 import Navbar from '../components/navbar.vue'
 
-import image_gallery_1 from '../assets/image/gallery/gallery1.jpg'
+import blog1 from '../assets/image/blog/blog1.jpg'
 
 import { reactive } from 'vue'
 
@@ -39,7 +39,7 @@ window.scrollTo(0, 0);
     <div class="infor-view" id="infor">
         <div class="infor-content">
             <div class="gallery">
-                <img :src="image_gallery_1">
+                <img :src="blog1">
                 <div class="gallery-tag">
                     <p class="fs-4 fw-bold white">25</p>
                     <p class="fs-4 fw-bold white">Years</p>
@@ -167,80 +167,80 @@ window.scrollTo(0, 0);
             <div class="gallery-list">
                 <div class="gallery-item">
                     <div class="gallery-img">
-                        <img :src="image_gallery_1">
+                        <img :src="blog1">
                     </div>
                     <div class="gallery-link">
-                        <div class="icon" @click="showImage(image_gallery_1)">
+                        <div class="icon" @click="showImage(blog1)">
                             <i class="fa-solid fa-link fs-5 primary"></i>
                         </div>
                     </div>
                 </div>
                 <div class="gallery-item">
                     <div class="gallery-img">
-                        <img :src="image_gallery_1">
+                        <img :src="blog1">
                     </div>
                     <div class="gallery-link">
-                        <div class="icon" @click="showImage(image_gallery_1)">
+                        <div class="icon" @click="showImage(blog1)">
                             <i class="fa-solid fa-link fs-5 primary"></i>
                         </div>
                     </div>
                 </div>
                 <div class="gallery-item">
                     <div class="gallery-img">
-                        <img :src="image_gallery_1">
+                        <img :src="blog1">
                     </div>
                     <div class="gallery-link">
-                        <div class="icon" @click="showImage(image_gallery_1)">
+                        <div class="icon" @click="showImage(blog1)">
                             <i class="fa-solid fa-link fs-5 primary"></i>
                         </div>
                     </div>
                 </div>
                 <div class="gallery-item">
                     <div class="gallery-img">
-                        <img :src="image_gallery_1">
+                        <img :src="blog1">
                     </div>
                     <div class="gallery-link">
-                        <div class="icon" @click="showImage(image_gallery_1)">
+                        <div class="icon" @click="showImage(blog1)">
                             <i class="fa-solid fa-link fs-5 primary"></i>
                         </div>
                     </div>
                 </div>
                 <div class="gallery-item">
                     <div class="gallery-img">
-                        <img :src="image_gallery_1">
+                        <img :src="blog1">
                     </div>
                     <div class="gallery-link">
-                        <div class="icon" @click="showImage(image_gallery_1)">
+                        <div class="icon" @click="showImage(blog1)">
                             <i class="fa-solid fa-link fs-5 primary"></i>
                         </div>
                     </div>
                 </div>
                 <div class="gallery-item">
                     <div class="gallery-img">
-                        <img :src="image_gallery_1">
+                        <img :src="blog1">
                     </div>
                     <div class="gallery-link">
-                        <div class="icon" @click="showImage(image_gallery_1)">
+                        <div class="icon" @click="showImage(blog1)">
                             <i class="fa-solid fa-link fs-5 primary"></i>
                         </div>
                     </div>
                 </div>
                 <div class="gallery-item">
                     <div class="gallery-img">
-                        <img :src="image_gallery_1">
+                        <img :src="blog1">
                     </div>
                     <div class="gallery-link">
-                        <div class="icon" @click="showImage(image_gallery_1)">
+                        <div class="icon" @click="showImage(blog1)">
                             <i class="fa-solid fa-link fs-5 primary"></i>
                         </div>
                     </div>
                 </div>
                 <div class="gallery-item">
                     <div class="gallery-img">
-                        <img :src="image_gallery_1">
+                        <img :src="blog1">
                     </div>
                     <div class="gallery-link">
-                        <div class="icon" @click="showImage(image_gallery_1)">
+                        <div class="icon" @click="showImage(blog1)">
                             <i class="fa-solid fa-link fs-5 primary"></i>
                         </div>
                     </div>
@@ -262,7 +262,7 @@ window.scrollTo(0, 0);
             <div class="blog-list">
                 <div class="blog-item">
                     <div class="blog-img">
-                        <img :src="image_gallery_1">
+                        <img :src="blog1">
                     </div>
                     <div class="p-4">
                         <div class="d-flex gap-3 mb-3">
@@ -272,66 +272,16 @@ window.scrollTo(0, 0);
                             </div>
                             <div class="d-flex align-items-center gap-2">
                                 <i class="far fa-user primary"></i>
-                                <p class="primary">Emma Grant</p>
+                                <p class="primary">Nanovast</p>
                             </div>
                         </div>
                         <div>
-                            <p class="fs-5 fw-bold">This Season Increased Yield Of Honey</p>
-                            <p>Conveniently innovate user-centric benefits architectures rapidiously builmortar testing
-                                manufacture distinctively.</p>
+                            <p class="fs-5 fw-bold mb-2">Nước nhiễm sắt là gì? Cách nhận biết và phương pháp xử lý nước bị nhiễm sắt.</p>
+                            <p>Ở Việt Nam, vẫn còn rất nhiều nơi sử dụng nguồn nước giếng khoan bị nhiễm sắt nặng, gây ...
+                            </p>
                         </div>
                         <div class="mt-4">
                             <router-link class="button-custom" to="/blog/1">Read more</router-link>
-                        </div>
-                    </div>
-                </div>
-                <div class="blog-item">
-                    <div class="blog-img">
-                        <img :src="image_gallery_1">
-                    </div>
-                    <div class="p-4">
-                        <div class="d-flex gap-3 mb-3">
-                            <div class="d-flex align-items-center gap-2">
-                                <i class="fas fa-calendar-alt primary"></i>
-                                <p class="primary">June 10, 2021</p>
-                            </div>
-                            <div class="d-flex align-items-center gap-2">
-                                <i class="far fa-user primary"></i>
-                                <p class="primary">Emma Grant</p>
-                            </div>
-                        </div>
-                        <div>
-                            <p class="fs-5 fw-bold">This Season Increased Yield Of Honey</p>
-                            <p>Conveniently innovate user-centric benefits architectures rapidiously builmortar testing
-                                manufacture distinctively.</p>
-                        </div>
-                        <div class="mt-4">
-                            <router-link class="button-custom" to="/blog/2">Read more</router-link>
-                        </div>
-                    </div>
-                </div>
-                <div class="blog-item">
-                    <div class="blog-img">
-                        <img :src="image_gallery_1">
-                    </div>
-                    <div class="p-4">
-                        <div class="d-flex gap-3 mb-3">
-                            <div class="d-flex align-items-center gap-2">
-                                <i class="fas fa-calendar-alt primary"></i>
-                                <p class="primary">June 10, 2021</p>
-                            </div>
-                            <div class="d-flex align-items-center gap-2">
-                                <i class="far fa-user primary"></i>
-                                <p class="primary">Emma Grant</p>
-                            </div>
-                        </div>
-                        <div>
-                            <p class="fs-5 fw-bold">This Season Increased Yield Of Honey</p>
-                            <p>Conveniently innovate user-centric benefits architectures rapidiously builmortar testing
-                                manufacture distinctively.</p>
-                        </div>
-                        <div class="mt-4">
-                            <router-link class="button-custom" to="/blog/3">Read more</router-link>
                         </div>
                     </div>
                 </div>

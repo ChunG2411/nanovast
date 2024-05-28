@@ -4,6 +4,9 @@ import About from '../views/About.vue'
 import Contact from '../views/Contact.vue'
 import Blog from '../views/Blog.vue'
 import BlogDetail from '../views/BlogDetail.vue'
+import Product from '../views/Product.vue'
+import ProductDetail from '../views/ProductDetail.vue'
+
 import Home from '../views/Home.vue'
 
 
@@ -18,11 +21,16 @@ const routes = [
         path: "/contact",
         component: Contact,
     },
-    // {
-    //     name: "infor",
-    //     path: "/information",
-    //     component: slider1,
-    // },
+    {
+        name: "product",
+        path: "/product/:id",
+        component: Product,
+    },
+    {
+        name: "product-detail",
+        path: "/product/:id_1/:id_2",
+        component: ProductDetail,
+    },
     {
         name: "blog",
         path: "/blog",

@@ -3,29 +3,63 @@ import Header from '../components/header.vue'
 import Navbar from '../components/navbar.vue'
 import Footer from '../components/footer.vue'
 
-import data_json from '../assets/data/blog.json'
-import image_1 from '../assets/image/blog/blog1.jpg'
+import data_json from '../assets/data/product.json'
+import image_1_1 from '../assets/image/product/card/product_1_1.jpg'
+import image_1_2 from '../assets/image/product/card/product_1_2.jpg'
+import image_1_3 from '../assets/image/product/card/product_1_3.jpg'
+import image_1_4 from '../assets/image/product/card/product_1_4.jpg'
+import image_1_5 from '../assets/image/product/card/product_1_5.jpg'
+import image_1_6 from '../assets/image/product/card/product_1_6.jpg'
+import image_2_1 from '../assets/image/product/card/product_2_1.jpg'
+import image_2_2 from '../assets/image/product/card/product_2_2.jpg'
+import image_2_3 from '../assets/image/product/card/product_2_3.jpg'
+import image_2_4 from '../assets/image/product/card/product_2_4.jpg'
+import image_2_5 from '../assets/image/product/card/product_2_5.jpg'
+import image_3_1 from '../assets/image/product/card/product_3_1.jpg'
+import image_3_2 from '../assets/image/product/card/product_3_2.jpg'
+
+import { useRoute } from 'vue-router'
+import { watch } from 'vue'
 
 
-window.scrollTo(0, 0);
+const route = useRoute()
+var data = data_json[(parseInt(route.params.id) - 1)]
 
-const data = data_json
+watch(()=> route.params.id, (newValue, _)=> {
+    data = data_json[(parseInt(newValue) - 1)]
+    window.scrollTo(0, 0)
+})
+window.scrollTo(0, 0)
+
 
 function getImage(id) {
-    if (id=="1") {
-        return image_1
-    }
-    else if (id=="2") {
-        return image_1
-    }
-    else if (id=="3") {
-        return image_1
-    }
-    else if (id=="4") {
-        return image_1
-    }
-    else if (id=="5") {
-        return image_1
+    switch (route.params.id + '_' + id) {
+        case "1_1":
+            return image_1_1
+        case "1_2":
+            return image_1_2
+        case "1_3":
+            return image_1_3
+        case "1_4":
+            return image_1_4
+        case "1_5":
+            return image_1_5
+        case "1_6":
+            return image_1_6
+        case "2_1":
+            return image_2_1
+        case "2_2":
+            return image_2_2
+        case "2_3":
+            return image_2_3
+        case "2_4":
+            return image_2_4
+        case "2_5":
+            return image_2_5
+        case "3_1":
+            return image_3_1
+        case "3_2":
+            return image_3_2
     }
 }
 </script>
@@ -36,7 +70,7 @@ function getImage(id) {
         <div class="position-relative">
             <Navbar></Navbar>
             <div class="home-intro">
-                <p class="fs-1 fw-bold">Bài viết</p>
+                <p class="fs-1 fw-bold">Sản phẩm</p>
             </div>
         </div>
     </div>
@@ -51,7 +85,7 @@ function getImage(id) {
                     <p>Admin: <span class="primary">Nanovast</span> Date: <span class="primary">14 April 2018</span></p>
                     <p class="header-custom fs-4 fw-bold">{{ i.header }}</p>
                     <p class="body-custom">{{ i.content }}</p>
-                    <router-link class="button-custom mt-3" :to="'/blog/' + i.id">Read more</router-link>
+                    <router-link class="button-custom mt-3" :to="`/product/${route.params.id}/` + i.id">Read more</router-link>
                 </div>
             </div>
         </div>
