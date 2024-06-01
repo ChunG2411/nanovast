@@ -22,7 +22,7 @@ const pagination = {
                 <div class="slide-card">
                     <div class="image-slot">
                         <div class="cover-image"></div>
-                        <img src="../assets/image/slide/slide1.jpg">
+                        <img src="../assets/image/slide/slide4.jpg">
                     </div>
                     <div class="content-slot">
                         <p class="white fs-0 fw-bold content-head">Máy lọc nước đạt quy chuẩn quốc gia</p>
@@ -58,7 +58,7 @@ const pagination = {
                 <div class="slide-card">
                     <div class="image-slot">
                         <div class="cover-image"></div>
-                        <img src="../assets/image/slide/slide4.jpg">
+                        <img src="../assets/image/slide/slide1.jpg">
                     </div>
                     <div class="content-slot">
                         <p class="white fs-0 fw-bold content-head">Công suất lọc trung bình</p>
@@ -100,7 +100,7 @@ const pagination = {
                 left: 0;
                 width: 100%;
                 height: 100%;
-                background-color: rgba(0, 0, 0, 0.7);
+                background-color: rgba(0, 0, 0, 0.781);
             }
         }
         .content-slot {
