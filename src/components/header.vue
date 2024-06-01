@@ -5,23 +5,16 @@
     <div class="header">
         <div class="d-flex gap-5">
             <div class="d-flex align-items-center gap-2">
-                <i class="far fa-envelope white"></i>
-                <p class="white">Gowala45@gmail.com</p>
+                <p class="white">Viện Hàn lâm Khoa học và Công nghệ</p>
             </div>
             <div class="d-flex align-items-center gap-2">
-                <i class="fas fa-phone-volume white"></i>
-                <p class="white">+88 130 589 745 6987</p>
-            </div>
-            <div class="d-flex align-items-center gap-2">
-                <i class="far fa-clock white"></i>
-                <p class="white">Mon - Fri 09:00 - 18:00</p>
+                <p class="white">Phòng Hoá vô cơ - Hoá lý</p>
             </div>
         </div>
         <div class="d-flex align-items-center gap-3">
-            <i class="fab fa-twitter white"></i>
-            <i class="fab fa-behance white"></i>
+            <i class="fa-brands fa-facebook-f white"></i>
             <i class="fab fa-instagram white"></i>
-            <i class="fab fa-vimeo-v white"></i>
+            <i class="fab fa-twitter white"></i>
             <i class="fab fa-linkedin-in white"></i>
         </div>
     </div>

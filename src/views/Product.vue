@@ -82,10 +82,10 @@ function getImage(id) {
                     <img :src="getImage(i.id)">
                 </div>
                 <div class="content">
-                    <p>Admin: <span class="primary">Nanovast</span> Date: <span class="primary">14 April 2018</span></p>
+                    <p>Tác giả: <span class="primary">Nanovast</span> Ngày: <span class="primary">01-06-2024</span></p>
                     <p class="header-custom fs-4 fw-bold">{{ i.header }}</p>
                     <p class="body-custom">{{ i.content }}</p>
-                    <router-link class="button-custom mt-3" :to="`/product/${route.params.id}/` + i.id">Read more</router-link>
+                    <router-link class="button-custom mt-3" :to="`/product/${route.params.id}/` + i.id">Đọc thêm</router-link>
                 </div>
             </div>
         </div>

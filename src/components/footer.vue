@@ -22,31 +22,23 @@ $(window).scroll(()=>{
                     <img src="../assets/logo.png">
                 </div>
                 <div>
-                    <p>Continually productize compelling quality dome packed with all Elated Themes ently utilize
-                        website and creating pages corporate</p>
+                    <p>Máy lọc nước cho ăn uống đạt Quy chuẩn kỹ thuật quốc gia về chất lượng nước ăn uống (National technical regulation on drinking water quality), viết tắt: QCVN 01:2009/BYT</p>
                 </div>
             </div>
             <div>
-                <p class="fs-4 fw-bold mb-4">Keep In Touch</p>
-                <div>
-                    <div class="d-flex gap-3 align-items-center mb-2">
-                        <i class="fas fa-phone-volume primary"></i>
-                        <p>+88130-589-745-6987</p>
-                    </div>
-                    <div class="d-flex gap-3 align-items-center mb-2">
-                        <i class="fas fa-clock primary"></i>
-                        <p>Mon - Fri 09:00 - 18:00</p>
-                    </div>
-                    <div class="d-flex gap-3 align-items-center">
-                        <i class="fas fa-map-marker-alt primary"></i>
-                        <p>25/2 Lane2 Vokte Street Building</p>
+                <p class="fs-4 fw-bold mb-4">Liên hệ với chúng tôi</p>
+                <div class="d-flex gap-3 align-items-center">
+                    <i class="fas fa-map-marker-alt primary"></i>
+                    <div>
+                        <p>Viện Hàn lâm Khoa học và Công nghệ</p>
+                        <p>Phòng Hoá vô cơ - Hoá lý</p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="w-100 text-center mt-4">
+        <!-- <div class="w-100 text-center mt-4">
             <p>© 2024 Created By ChunG</p>
-        </div>
+        </div> -->
     </div>
     <div class="scroll-button" @click="scrollTop">
         <i class="fa-solid fa-chevron-up white fs-5"></i>

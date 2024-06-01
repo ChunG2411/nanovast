@@ -2,7 +2,7 @@
 import Header from '../components/header.vue'
 import Navbar from '../components/navbar.vue'
 import Footer from '../components/footer.vue'
-import Prize from '../components/prize.vue'
+// import Prize from '../components/prize.vue'
 
 import { Swiper, SwiperSlide } from 'swiper/vue';
 import { Autoplay } from 'swiper/modules';
@@ -26,24 +26,27 @@ window.scrollTo(0, 0);
     <div class="contact-view">
         <div class="contact-content">
             <div class="left">
-                <p class="fs-4 fw-bold">Welcome to Our Gowala Dairy Farm</p>
-                <p>Continually productize compelling quality for packed with Elated productize compelling quality for packed with all Elated Them Setting up to website and creating pages.</p>
+                <p class="fs-4 fw-bold">Phòng Hóa vô cơ - Hóa lý</p>
                 <div>
-                    <div class="d-flex align-items-center gap-2">
-                        <i class="fa-regular fa-square-check primary"></i>
-                        <p>We are providing different services</p>
+                    <div class="d-flex gap-2">
+                        <i class="fa-regular fa-square-check primary mt-1"></i>
+                        <p>Nghiên cứu tổng hợp các chất, các vật liệu vô cơ tiên tiến có tính năng đặc biệt ứng dụng trong lĩnh vực: môi trường, năng lượng, y sinh học, dược học.</p>
                     </div>
-                    <div class="d-flex align-items-center gap-2">
-                        <i class="fa-regular fa-square-check primary"></i>
-                        <p>We are one of leading company</p>
+                    <div class="d-flex gap-2 mt-2">
+                        <i class="fa-regular fa-square-check primary mt-1"></i>
+                        <p>Nghiên cứu các quá trình hóa lý trong điện hóa.</p>
                     </div>
-                    <div class="d-flex align-items-center gap-2">
-                        <i class="fa-regular fa-square-check primary"></i>
-                        <p>Profitability is the primary goal of all business</p>
+                    <div class="d-flex gap-2 mt-2">
+                        <i class="fa-regular fa-square-check primary mt-1"></i>
+                        <p>Nghiên cứu ứng dụng các phương pháp điện hóa trong phân tích môi trường, y học và dược phẩm.</p>
                     </div>
-                    <div class="d-flex align-items-center gap-2">
-                        <i class="fa-regular fa-square-check primary"></i>
-                        <p>Professional solutions for your business</p>
+                    <div class="d-flex gap-2 mt-2">
+                        <i class="fa-regular fa-square-check primary mt-1"></i>
+                        <p>Hợp tác quốc tế trong lĩnh vực hoá vô cơ - hóa lý.</p>
+                    </div>
+                    <div class="d-flex gap-2 mt-2">
+                        <i class="fa-regular fa-square-check primary mt-1"></i>
+                        <p>Tham gia đào tạo sau đại học trong lĩnh vực hoá vô cơ - hóa lý.</p>
                     </div>
                 </div>
             </div>
@@ -58,8 +61,7 @@ window.scrollTo(0, 0);
     <div class="history-view">
         <div class="history-content">
             <div class="mb-4">
-                <p class="fs-2">History</p>
-                <p class="fs-1 fw-bold">40 Years Farm Traditions</p>
+                <p class="fs-2 fw-bold">Thành tựu nghiên cứu</p>
             </div>
             <div class="history-slide">
                 <div class="left">
@@ -75,13 +77,13 @@ window.scrollTo(0, 0);
                                 </div>
                                 <div class="history-slot">
                                     <div class="d-flex flex-column align-items-center">
-                                        <p class="fs-2">Since</p>
-                                        <p class="fs-0 fw-bold">1980</p>
+                                        <p class="fs-2 fw-bold">2008</p>
+                                        <p class="fs-4 fw-bold">-</p>
+                                        <p class="fs-2 fw-bold">2011</p>
                                     </div>
-                                    <p>Continually productize compelling quality elated them setting up to website with 
-                                        all them imperdiet molestieo continually productize compelling quality for packedq
-                                        for  packed with all elated themes setting up to website and creating pages 
-                                        compelling quality for packed with all elated themes setting up to website.
+                                    <p>Nghiên cứu chế tạo và triển khai sản xuất bột canxi hydroxyapatite kích thước nano
+                                        dùng làm thực phẩm  chức năng và nguyên liệu bào chế thuốc chống loãng xương.
+                                        Chương trình Hóa dược - Bộ Công thương, đã nghiệm thu (2008 - 2011).
                                     </p>
                                 </div>
                             </div>
@@ -89,17 +91,16 @@ window.scrollTo(0, 0);
                         <swiper-slide>
                             <div class="history-card">
                                 <div class="img-slot">
-                                    <img src="../assets/image/about/history1.jpg">
+                                    <img src="../assets/image/about/history2.jpg">
                                 </div>
                                 <div class="history-slot">
                                     <div class="d-flex flex-column align-items-center">
-                                        <p class="fs-2">Since</p>
-                                        <p class="fs-0 fw-bold">2000</p>
+                                        <p class="fs-2 fw-bold">2008</p>
+                                        <!-- <p class="fs-4 fw-bold">-</p>
+                                        <p class="fs-2 fw-bold">2011</p> -->
                                     </div>
-                                    <p>Continually productize compelling quality elated them setting up to website with 
-                                        all them imperdiet molestieo continually productize compelling quality for packedq
-                                        for  packed with all elated themes setting up to website and creating pages 
-                                        compelling quality for packed with all elated themes setting up to website.
+                                    <p>Vật liệu hấp phụ asen trên nền oxit sắt từ. Nhiệm vụ do Chủ tịch Viện KH&CN VN giao trực tiếp,
+                                        đã nghiệm thu (2008).
                                     </p>
                                 </div>
                             </div>
@@ -107,17 +108,105 @@ window.scrollTo(0, 0);
                         <swiper-slide>
                             <div class="history-card">
                                 <div class="img-slot">
-                                    <img src="../assets/image/about/history1.jpg">
+                                    <img src="../assets/image/about/history3.jpg">
                                 </div>
                                 <div class="history-slot">
                                     <div class="d-flex flex-column align-items-center">
-                                        <p class="fs-2">Since</p>
-                                        <p class="fs-0 fw-bold">2020</p>
+                                        <p class="fs-2 fw-bold">2009</p>
+                                        <p class="fs-4 fw-bold">-</p>
+                                        <p class="fs-2 fw-bold">2010</p>
                                     </div>
-                                    <p>Continually productize compelling quality elated them setting up to website with 
-                                        all them imperdiet molestieo continually productize compelling quality for packedq
-                                        for  packed with all elated themes setting up to website and creating pages 
-                                        compelling quality for packed with all elated themes setting up to website.
+                                    <p>Hoàn thiện công nghệ và chế tạo thiết bị xử lý nước nhiễm asen sử dụng vật liệu
+                                        hiệu năng cao NC-F20 cho vùng nông thôn Hà Nam. Dự án cấp Viện Hàn lâm KH&CN VN,
+                                        chương trình nước sạch và VSMT nông thôn, đã nghiệm thu (2009 - 2010).
+                                    </p>
+                                </div>
+                            </div>
+                        </swiper-slide>
+                        <swiper-slide>
+                            <div class="history-card">
+                                <div class="img-slot">
+                                    <img src="../assets/image/about/history4.jpg">
+                                </div>
+                                <div class="history-slot">
+                                    <div class="d-flex flex-column align-items-center">
+                                        <p class="fs-2 fw-bold">2012</p>
+                                        <p class="fs-4 fw-bold">-</p>
+                                        <p class="fs-2 fw-bold">2013</p>
+                                    </div>
+                                    <p>Triển khai công nghệ NANOVAST xử lý asen và các kim loại nặng trong nước ăn uống cho
+                                        cụm dân cư hoặc trường học tại tỉnh Hà Nam. Dự án cấp Viện Hàn lâm KH&CN VN,
+                                        chương trình nước sạch và VSMT nông thôn, đã nghiệm thu (2012 - 2013).
+                                    </p>
+                                </div>
+                            </div>
+                        </swiper-slide>
+                        <swiper-slide>
+                            <div class="history-card">
+                                <div class="img-slot">
+                                    <img src="../assets/image/about/history5.jpg">
+                                </div>
+                                <div class="history-slot">
+                                    <div class="d-flex flex-column align-items-center">
+                                        <p class="fs-2 fw-bold">2012</p>
+                                        <p class="fs-4 fw-bold">-</p>
+                                        <p class="fs-2 fw-bold">2013</p>
+                                    </div>
+                                    <p>Xây dựng công nghệ xử lý hydro sulfua trên vật liệu xúc tác mới ứng dụng làm
+                                        sạch khí biogas. Đề tài cấp Viện Hàn lâm KH&CN VN (2012 - 2013).
+                                    </p>
+                                </div>
+                            </div>
+                        </swiper-slide>
+                        <swiper-slide>
+                            <div class="history-card">
+                                <div class="img-slot">
+                                    <img src="../assets/image/about/history7.jpg">
+                                </div>
+                                <div class="history-slot">
+                                    <div class="d-flex flex-column align-items-center">
+                                        <p class="fs-2 fw-bold">2013</p>
+                                        <p class="fs-4 fw-bold">-</p>
+                                        <p class="fs-2 fw-bold">2014</p>
+                                    </div>
+                                    <p>Nghiên cứu quy trình tổng hợp và xác định các đặc trưng của vật liệu phức hợp sắt - polymaltose
+                                        (Iron polymaltose complex - IPC) hướng đến ứng dụng trong thực phẩm chức năng bổ sung sắt và
+                                        thuốc chống thiếu máu. Đề tài cấp Viện Hàn lâm KH&CN VN (2013 - 2014).
+                                    </p>
+                                </div>
+                            </div>
+                        </swiper-slide>
+                        <swiper-slide>
+                            <div class="history-card">
+                                <div class="img-slot">
+                                    <img src="../assets/image/about/history6.jpg">
+                                </div>
+                                <div class="history-slot">
+                                    <div class="d-flex flex-column align-items-center">
+                                        <p class="fs-2 fw-bold">2014</p>
+                                        <p class="fs-4 fw-bold">-</p>
+                                        <p class="fs-2 fw-bold">2015</p>
+                                    </div>
+                                    <p>Nghiên cứu sản xuất Polymaltose từ tinh bột và tạo các phức hợp sắt - Polymaltose
+                                        (IPC) và Canxi hydroxyapatite- Polymaltose (HAP) ứng dụng trong dược phẩm.
+                                        Đề tài thuộc chương trình KC 07 (2014 - 2015).
+                                    </p>
+                                </div>
+                            </div>
+                        </swiper-slide>
+                        <swiper-slide>
+                            <div class="history-card">
+                                <div class="img-slot">
+                                    <img src="../assets/image/about/history8.jpg">
+                                </div>
+                                <div class="history-slot">
+                                    <div class="d-flex flex-column align-items-center">
+                                        <p class="fs-2 fw-bold">2014</p>
+                                        <p class="fs-4 fw-bold">-</p>
+                                        <p class="fs-2 fw-bold">2016</p>
+                                    </div>
+                                    <p>Nghiên cứu sản xuất hydroxyapatite từ vỏ sò ở quy mô pilot và đề xuất
+                                        các hướng ứng dụng. Đề tài cấp tỉnh Thừa Thiên Huế. (2014 - 2016).
                                     </p>
                                 </div>
                             </div>
@@ -125,45 +214,39 @@ window.scrollTo(0, 0);
                     </swiper>
                 </div>
                 <div class="right">
-                    <p class="fs-3 fw-bold white w-75">Our Achievement</p>
+                    <p class="fs-2 fw-bold white w-75">Về chúng tôi</p>
                     <div class="right-column">
                         <div class="d-flex flex-column align-items-center mb-3">
                             <div class="icon">
                                 <img src="../assets/image/icon/icon2.png">
                             </div>
-                            <p class="fs-4 white fw-bold">28+</p>
-                            <p class="fs-5 white">Customers</p>
+                            <p class="fs-4 white fw-bold">10</p>
+                            <p class="fs-5 white">Thành viên</p>
+                        </div>
+                        <div class="d-flex flex-column align-items-center mb-3">
+                            <div class="icon" style="width: 40px; height: 40px;">
+                                <img src="../assets/image/icon/icon5.png">
+                            </div>
+                            <p class="fs-4 white fw-bold">8+</p>
+                            <p class="fs-5 white">Dự án</p>
                         </div>
                         <div class="d-flex flex-column align-items-center mb-3">
                             <div class="icon">
-                                <img src="../assets/image/icon/icon2.png">
+                                <img src="../assets/image/icon/icon3.png">
                             </div>
-                            <p class="fs-4 white fw-bold">1+</p>
-                            <p class="fs-5 white">Award</p>
+                            <p class="fs-4 white fw-bold">6+</p>
+                            <p class="fs-5 white">Thành tựu</p>
                         </div>
                         <div class="d-flex flex-column align-items-center mb-3">
-                            <div class="icon">
-                                <img src="../assets/image/icon/icon2.png">
+                            <div class="icon" style="width: 40px; height: 40px;">
+                                <img src="../assets/image/icon/icon4.png">
                             </div>
-                            <p class="fs-4 white fw-bold">12+</p>
-                            <p class="fs-5 white">Volunteer</p>
-                        </div>
-                        <div class="d-flex flex-column align-items-center mb-3">
-                            <div class="icon">
-                                <img src="../assets/image/icon/icon2.png">
-                            </div>
-                            <p class="fs-4 white fw-bold">0+</p>
-                            <p class="fs-5 white">Cow</p>
+                            <p class="fs-4 white fw-bold">10+</p>
+                            <p class="fs-5 white">Năm</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-
-    <div class="prize-view">
-        <div class="prize-content">
-            <Prize></Prize>
         </div>
     </div>
     <!-- ------------------------footer----------------------- -->
@@ -316,25 +399,14 @@ window.scrollTo(0, 0);
                 .right-column {
                     column-count: 2;
                     column-gap: 20px;
+
+                    .icon {
+                        width: 50px;
+                        height: 50px;
+                    }
                 }
             }
         }
-    }
-}
-
-.prize-view {
-    display: flex;
-    padding: 70px 0;
-    justify-content: center;
-    background-color: var(--color_white);
-
-    .prize-content {
-        width: 90%;
-        display: flex;
-        flex-direction: column;
-        max-width: 800px;
-        align-items: center;
-        position: relative;
     }
 }
 

@@ -25,8 +25,8 @@ const pagination = {
                         <img src="../assets/image/slide/slide1.jpg">
                     </div>
                     <div class="content-slot">
-                        <p class="white fs-0 fw-bold content-head">High Quality And Wholesome Products From Sheep</p>
-                        <p class="white fs-4 mt-3 content-body">Compellingly Streamline Web-Enabled Portals For High Standards Income Completely Productivate Optimal Sources Strategic</p>
+                        <p class="white fs-0 fw-bold content-head">Máy lọc nước đạt quy chuẩn quốc gia</p>
+                        <p class="white fs-4 mt-3 content-body">Máy lọc nước Nanovast tích hợp các vật liệu và công nghệ tiên tiến nhất của các nhà khoa học Việt nam và các sản phẩm nổi tiếng trên thế giới trong một máy lọc - Công nghệ Nano</p>
                     </div>
                 </div>
             </swiper-slide>
@@ -37,8 +37,8 @@ const pagination = {
                         <img src="../assets/image/slide/slide2.jpg">
                     </div>
                     <div class="content-slot">
-                        <p class="white fs-0 fw-bold content-head">High Quality And Wholesome Products From Sheep</p>
-                        <p class="white fs-4 mt-3 content-body">Compellingly Streamline Web-Enabled Portals For High Standards Income Completely Productivate Optimal Sources Strategic</p>
+                        <p class="white fs-0 fw-bold content-head">Gọn, nhẹ, tiện dụng, đảm bảo an toàn</p>
+                        <p class="white fs-4 mt-3 content-body">Máy lọc nước Nanovast gọn, nhẹ, tiện dụng, đảm bảo an toàn về nước ăn uống trong một phổ rộng các nguồn nước. Với khoảng 80% các vật liệu lọc tiên tiến được các nhà khoa học nghiên cứu, sản xuất trong nước</p>
                     </div>
                 </div>
             </swiper-slide>
@@ -49,8 +49,8 @@ const pagination = {
                         <img src="../assets/image/slide/slide3.jpg">
                     </div>
                     <div class="content-slot">
-                        <p class="white fs-0 fw-bold content-head">High Quality And Wholesome Products From Sheep</p>
-                        <p class="white fs-4 mt-3 content-body">Compellingly Streamline Web-Enabled Portals For High Standards Income Completely Productivate Optimal Sources Strategic</p>
+                        <p class="white fs-0 fw-bold content-head">Công nghệ diệt khuẩn bằng nano bạc</p>
+                        <p class="white fs-4 mt-3 content-body">Có khả năng loại bỏ toàn bộ các vi khuẩn có hại cho con người bằng cách sử dụng công nghệ diệt khuẩn bằng nano bạc. Do đó nước sau lọc có thể uống trực tiếp mà không cần đun sôi</p>
                     </div>
                 </div>
             </swiper-slide>
@@ -61,8 +61,8 @@ const pagination = {
                         <img src="../assets/image/slide/slide4.jpg">
                     </div>
                     <div class="content-slot">
-                        <p class="white fs-0 fw-bold content-head">High Quality And Wholesome Products From Sheep</p>
-                        <p class="white fs-4 mt-3 content-body">Compellingly Streamline Web-Enabled Portals For High Standards Income Completely Productivate Optimal Sources Strategic</p>
+                        <p class="white fs-0 fw-bold content-head">Công suất lọc trung bình</p>
+                        <p class="white fs-4 mt-3 content-body">Cung cấp ngay lập tức 10 lít nước sạch đủ để một gia đình 6 người chuẩn bị một bữa ăn gia đình</p>
                     </div>
                 </div>
             </swiper-slide>

@@ -21,39 +21,27 @@ window.scrollTo(0, 0);
     <div class="contact-view">
         <div class="contact-content">
             <div class="left">
-                <p class="fs-4 fw-bold">Send Message us</p>
+                <p class="fs-4 fw-bold">Ý kiến phản hồi</p>
                 <div class="input-group-custom">
-                    <input type="text" placeholder="Your Name">
-                    <input type="text" placeholder="Your Email">
+                    <input type="text" placeholder="Tên của bạn">
+                    <input type="text" placeholder="Địa chỉ email">
                 </div>
                 <div class="input-group-custom">
-                    <input type="text" placeholder="Phone">
-                    <input type="text" placeholder="Subject">
+                    <input type="text" placeholder="Số điện thoại">
+                    <input type="text" placeholder="Chủ đề">
                 </div>
-                <textarea rows="5" cols="" placeholder="Enter your message"></textarea>
-                <button>Send</button>
+                <textarea rows="5" cols="" placeholder="Nhập nội dung"></textarea>
+                <button>Gửi</button>
             </div>
             <div class="right">
-                <p class="fs-4 fw-bold">Quick Contact</p>
-                <p>Continually productize compelling quality dome packed with all Elated Themes ently utilize website and creating pages corporate</p>
-                <div class="d-flex flex-column gap-2">
-                    <div class="d-flex align-items-center gap-2">
-                        <div class="icon">
-                            <i class="fas fa-phone-volume white"></i>
-                        </div>
-                        <p>+88130-589-745-6987</p>
+                <p class="fs-4 fw-bold">Địa chỉ liên hệ</p>
+                <div class="d-flex align-items-center gap-2">
+                    <div class="icon">
+                        <i class="fas fa-map-marker-alt white"></i>
                     </div>
-                    <div class="d-flex align-items-center gap-2">
-                        <div class="icon">
-                            <i class="fas fa-clock white"></i>
-                        </div>
-                        <p>Mon - Fri 09:00 - 18:00</p>
-                    </div>
-                    <div class="d-flex align-items-center gap-2">
-                        <div class="icon">
-                            <i class="fas fa-map-marker-alt white"></i>
-                        </div>
-                        <p>25/2 Lane2 Vokte Street Building Melborn City</p>
+                    <div>
+                        <p>Viện Hàn lâm Khoa học và Công nghệ</p>
+                        <p>Phòng Hoá vô cơ - Hoá lý</p>
                     </div>
                 </div>
             </div>
@@ -62,7 +50,7 @@ window.scrollTo(0, 0);
 
     <div class="map-veiw">
         <div class="map-content">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3724.0823738602735!2d105.85307655982645!3d21.029389773192833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1716091539110!5m2!1svi!2s"
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4442.407820634436!2d105.7991401147972!3d21.047230422222402!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab007e6d0cff%3A0xd9428f6b1696e246!2zVmnhu4duIEjDoG4gbMOibSBLSCZDTiBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1717210142904!5m2!1svi!2s"
                 width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
             </iframe>
         </div>

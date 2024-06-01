@@ -1,12 +1,20 @@
 <script setup>
 import Slider from '../components/slide.vue'
-import Prize from '../components/prize.vue'
+// import Prize from '../components/prize.vue'
 import Footer from '../components/footer.vue'
 import Preveiw from '../components/preveiw.vue'
 import Header from '../components/header.vue'
 import Navbar from '../components/navbar.vue'
 
 import blog1 from '../assets/image/blog/blog1.jpg'
+import gallery1 from '../assets/image/gallery/gallery1.jpg'
+import gallery2 from '../assets/image/gallery/gallery2.jpg'
+import gallery3 from '../assets/image/gallery/gallery3.jpg'
+import gallery4 from '../assets/image/gallery/gallery4.jpg'
+import gallery5 from '../assets/image/gallery/gallery5.jpg'
+import gallery6 from '../assets/image/gallery/gallery6.jpg'
+import gallery7 from '../assets/image/gallery/gallery7.jpg'
+import gallery8 from '../assets/image/gallery/gallery8.jpg'
 
 import { reactive } from 'vue'
 
@@ -15,7 +23,6 @@ const show_image = reactive({
     status: false,
     src: ''
 })
-
 
 function showImage(src) {
     show_image.status = true
@@ -39,53 +46,53 @@ window.scrollTo(0, 0);
     <div class="infor-view" id="infor">
         <div class="infor-content">
             <div class="gallery">
-                <img :src="blog1">
+                <img src="../assets/image/about/about1.jpg">
                 <div class="gallery-tag">
-                    <p class="fs-4 fw-bold white">25</p>
-                    <p class="fs-4 fw-bold white">Years</p>
-                    <p class="fs-4 fw-bold white">Experience</p>
+                    <p class="fs-4 fw-bold white">10 +</p>
+                    <p class="fs-4 fw-bold white">Năm</p>
+                    <p class="fs-4 fw-bold white">Nghiên cứu</p>
                 </div>
             </div>
             <div class="infor-right">
                 <div>
-                    <p class="fs-3 fw-bold">Sheep Farm Organic Products for Healthy living.</p>
-                    <p>Conveniently customize proactive web services for leveraged without globally wellies richard.</p>
+                    <p class="fs-3 fw-bold">Về chúng tôi</p>
+                    <p>Phòng Hoá vô cơ - Hoá lý Viện Hàn lâm Khoa học và Công nghệ</p>
                 </div>
                 <div class="infor-list">
                     <div>
-                        <div class="icon mb-2">
+                        <div class="icon mb-1">
                             <img src="../assets/image/icon/icon1.jpg">
                         </div>
                         <div>
-                            <p class="fs-5 fw-bold">Certified Organic Standards</p>
-                            <p>Continually aggregate frictionle interc without globally wellies richard.</p>
+                            <p class="fs-5 fw-bold">Nhiệm vụ</p>
+                            <p>Nghiên cứu tổng hợp các chất, các vật liệu vô cơ tiên tiến có tính năng đặc biệt</p>
                         </div>
                     </div>
                     <div>
-                        <div class="icon mb-2">
+                        <div class="icon mb-1">
                             <img src="../assets/image/icon/icon1.jpg">
                         </div>
                         <div>
-                            <p class="fs-5 fw-bold">Certified Organic Standards</p>
-                            <p>Continually aggregate frictionle interc without globally wellies richard.</p>
+                            <p class="fs-5 fw-bold">Lĩnh vực nghiên cứu</p>
+                            <p>Nghiên cứu vật liệu ứng dụng trong y sinh và dược học, chuyển hoá năng lượng</p>
                         </div>
                     </div>
                     <div>
-                        <div class="icon mb-2">
+                        <div class="icon mb-1">
                             <img src="../assets/image/icon/icon1.jpg">
                         </div>
                         <div>
-                            <p class="fs-5 fw-bold">Certified Organic Standards</p>
-                            <p>Continually aggregate frictionle interc without globally wellies richard.</p>
+                            <p class="fs-5 fw-bold">Thành tựu</p>
+                            <p>Nhiều đề tài dự án nghiên cứu đã được nghiệm thu</p>
                         </div>
                     </div>
                     <div>
-                        <div class="icon mb-2">
+                        <div class="icon mb-1">
                             <img src="../assets/image/icon/icon1.jpg">
                         </div>
                         <div>
-                            <p class="fs-5 fw-bold">Certified Organic Standards</p>
-                            <p>Continually aggregate frictionle interc without globally wellies richard.</p>
+                            <p class="fs-5 fw-bold">Triển khai thực tế</p>
+                            <p>Đã đưa nhiều sản phẩm ra thị trường với kết quả tốt</p>
                         </div>
                     </div>
                 </div>
@@ -94,10 +101,10 @@ window.scrollTo(0, 0);
     </div>
 
     <!-- ------------------------------------member view--------------------------------- -->
-    <div class="member-view" id="member">
+    <!-- <div class="member-view" id="member">
         <div class="member-content">
             <div class="text-center w-50">
-                <p class="fs-3 fw-bold">Our Sheep Farm Team</p>
+                <p class="fs-3 fw-bold">Thành viên</p>
                 <p class="">Conveniently customize proactives into everaged interfaces without Globally</p>
             </div>
             <div class="member-list">
@@ -155,99 +162,95 @@ window.scrollTo(0, 0);
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- ---------------------------------gallery view-------------------------------- -->
     <div class="gallery-view" id="gallery">
         <div class="gallery-content">
             <div class="text-center w-50">
-                <p class="fs-3 fw-bold">Our Sheep Farm Gallery</p>
-                <p class="">Conveniently customize proactives into everaged interfaces without Globally</p>
+                <p class="fs-3 fw-bold">Bộ sưu tập</p>
             </div>
             <div class="gallery-list">
                 <div class="gallery-item">
                     <div class="gallery-img">
-                        <img :src="blog1">
+                        <img :src="gallery2">
                     </div>
                     <div class="gallery-link">
-                        <div class="icon" @click="showImage(blog1)">
+                        <div class="icon" @click="showImage(gallery2)">
                             <i class="fa-solid fa-link fs-5 primary"></i>
                         </div>
                     </div>
                 </div>
                 <div class="gallery-item">
                     <div class="gallery-img">
-                        <img :src="blog1">
+                        <img :src="gallery3">
                     </div>
                     <div class="gallery-link">
-                        <div class="icon" @click="showImage(blog1)">
+                        <div class="icon" @click="showImage(gallery3)">
                             <i class="fa-solid fa-link fs-5 primary"></i>
                         </div>
                     </div>
                 </div>
                 <div class="gallery-item">
                     <div class="gallery-img">
-                        <img :src="blog1">
+                        <img :src="gallery4">
                     </div>
                     <div class="gallery-link">
-                        <div class="icon" @click="showImage(blog1)">
+                        <div class="icon" @click="showImage(gallery4)">
                             <i class="fa-solid fa-link fs-5 primary"></i>
                         </div>
                     </div>
                 </div>
                 <div class="gallery-item">
                     <div class="gallery-img">
-                        <img :src="blog1">
+                        <img :src="gallery5">
                     </div>
                     <div class="gallery-link">
-                        <div class="icon" @click="showImage(blog1)">
+                        <div class="icon" @click="showImage(gallery5)">
                             <i class="fa-solid fa-link fs-5 primary"></i>
                         </div>
                     </div>
                 </div>
                 <div class="gallery-item">
                     <div class="gallery-img">
-                        <img :src="blog1">
+                        <img :src="gallery6">
                     </div>
                     <div class="gallery-link">
-                        <div class="icon" @click="showImage(blog1)">
+                        <div class="icon" @click="showImage(gallery6)">
                             <i class="fa-solid fa-link fs-5 primary"></i>
                         </div>
                     </div>
                 </div>
                 <div class="gallery-item">
                     <div class="gallery-img">
-                        <img :src="blog1">
+                        <img :src="gallery7">
                     </div>
                     <div class="gallery-link">
-                        <div class="icon" @click="showImage(blog1)">
+                        <div class="icon" @click="showImage(gallery7)">
                             <i class="fa-solid fa-link fs-5 primary"></i>
                         </div>
                     </div>
                 </div>
                 <div class="gallery-item">
                     <div class="gallery-img">
-                        <img :src="blog1">
+                        <img :src="gallery8">
                     </div>
                     <div class="gallery-link">
-                        <div class="icon" @click="showImage(blog1)">
+                        <div class="icon" @click="showImage(gallery8)">
                             <i class="fa-solid fa-link fs-5 primary"></i>
                         </div>
                     </div>
                 </div>
                 <div class="gallery-item">
                     <div class="gallery-img">
-                        <img :src="blog1">
+                        <img :src="gallery1">
                     </div>
                     <div class="gallery-link">
-                        <div class="icon" @click="showImage(blog1)">
+                        <div class="icon" @click="showImage(gallery1)">
                             <i class="fa-solid fa-link fs-5 primary"></i>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div>
-                <button>View</button>
             </div>
         </div>
     </div>
@@ -256,8 +259,7 @@ window.scrollTo(0, 0);
     <div class="blog-view">
         <div class="blog-content">
             <div class="text-center w-50">
-                <p class="fs-3 fw-bold">Our Sheep Farm blog</p>
-                <p class="">Conveniently customize proactives into everaged interfaces without Globally</p>
+                <p class="fs-3 fw-bold">Bài viết của chúng tôi</p>
             </div>
             <div class="blog-list">
                 <div class="blog-item">
@@ -268,7 +270,7 @@ window.scrollTo(0, 0);
                         <div class="d-flex gap-3 mb-3">
                             <div class="d-flex align-items-center gap-2">
                                 <i class="fas fa-calendar-alt primary"></i>
-                                <p class="primary">June 10, 2021</p>
+                                <p class="primary">01-06-2024</p>
                             </div>
                             <div class="d-flex align-items-center gap-2">
                                 <i class="far fa-user primary"></i>
@@ -281,7 +283,7 @@ window.scrollTo(0, 0);
                             </p>
                         </div>
                         <div class="mt-4">
-                            <router-link class="button-custom" to="/blog/1">Read more</router-link>
+                            <router-link class="button-custom" to="/blog/1">Đọc thêm</router-link>
                         </div>
                     </div>
                 </div>
@@ -290,11 +292,11 @@ window.scrollTo(0, 0);
     </div>
 
     <!-- ------------------------------------prize view--------------------------------- -->
-    <div class="prize-view">
+    <!-- <div class="prize-view">
         <div class="prize-content">
             <Prize></Prize>
         </div>
-    </div>
+    </div> -->
 
     <!-- ------------------------------------footer view--------------------------------- -->
     <Footer></Footer>
@@ -368,7 +370,7 @@ window.scrollTo(0, 0);
                 overflow-y: scroll;
                 display: flex;
                 flex-direction: column;
-                gap: 25px;
+                gap: 15px;
                 padding-right: 30px;
 
                 &::-webkit-scrollbar {
@@ -477,7 +479,7 @@ window.scrollTo(0, 0);
         width: 90%;
         display: flex;
         flex-direction: column;
-        gap: 60px;
+        gap: 50px;
         align-items: center;
 
         .gallery-list {

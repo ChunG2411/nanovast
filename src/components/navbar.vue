@@ -56,7 +56,7 @@ function showChild() {
                 </div>
                 <div class="nav-item">
                     <div class="item-top">
-                        <router-link to="/">Thông tin</router-link>
+                        <router-link to="/information">Thông tin</router-link>
                     </div>
                 </div>
                 <div class="nav-item">
@@ -78,7 +78,7 @@ function showChild() {
                         </div>
                     </div>
                     <router-link to="/blog">Bài viết</router-link>
-                    <router-link to="/">Thông tin</router-link>
+                    <router-link to="/information">Thông tin</router-link>
                     <router-link to="/contact" style="border: 0;">Liên hệ</router-link>
                 </div>
             </div>
@@ -121,6 +121,7 @@ function showChild() {
         .logo {
             width: calc(120px + 5vw);
             overflow: hidden;
+            margin-bottom: 10px;
         }
         .nav-button {
             @include mobile {

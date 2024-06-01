@@ -61,7 +61,7 @@ function getImage(id) {
                     <img :src="getImage(data.id)">
                 </div>
                 <div class="content">
-                    <p>Admin: <span class="primary">Nanovast</span> Date: <span class="primary">14 April 2018</span></p>
+                    <p>Tác giả: <span class="primary">Nanovast</span> Ngày: <span class="primary">01-06-2024</span></p>
                     <p class="header-custom fs-4 fw-bold mb-2">{{ data.header }}</p>
                     <template v-for="i in data.content">
                         <div  class="d-flex p-3 pb-0" v-if="i.split(':')[0] == '_img'">
