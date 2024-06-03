@@ -4,14 +4,6 @@ import Navbar from '../components/navbar.vue'
 import Footer from '../components/footer.vue'
 
 import data_json from '../assets/data/blog_detail.json'
-import blog1 from '../assets/image/blog/blog1.jpg'
-import blog1_1 from '../assets/image/blog/blog1_1.jpg'
-import blog1_2 from '../assets/image/blog/blog1_2.jpg'
-import blog1_3 from '../assets/image/blog/blog1_3.jpg'
-import blog1_4 from '../assets/image/blog/blog1_4.jpg'
-import blog1_5 from '../assets/image/blog/blog1_5.jpg'
-import blog1_6 from '../assets/image/blog/blog1_6.jpg'
-import blog1_7 from '../assets/image/blog/blog1_7.jpg'
 
 import { useRoute } from 'vue-router'
 
@@ -21,25 +13,8 @@ var data = data_json[(parseInt(route.params.id) - 1)]
 
 window.scrollTo(0, 0);
 
-function getImage(id) {
-    switch (id) {
-        case "1":
-            return blog1
-        case "blog1_1":
-            return blog1_1
-        case "blog1_2":
-            return blog1_2
-        case "blog1_3":
-            return blog1_3
-        case "blog1_4":
-            return blog1_4
-        case "blog1_5":
-            return blog1_5
-        case "blog1_6":
-            return blog1_6
-        case "blog1_7":
-            return blog1_7
-    }
+const getImgUrl = (name) => {
+  return new URL(`../assets/image/blog/blog${name}.jpg`, import.meta.url).href
 }
 </script>
 
@@ -58,14 +33,14 @@ function getImage(id) {
         <div class="blog-content">
             <div class="blog-item">
                 <div class="blog-img">
-                    <img :src="getImage(data.id)">
+                    <img :src="getImgUrl(data.id)">
                 </div>
                 <div class="content">
                     <p>Tác giả: <span class="primary">Nanovast</span> Ngày: <span class="primary">01-06-2024</span></p>
                     <p class="header-custom fs-4 fw-bold mb-2">{{ data.header }}</p>
                     <template v-for="i in data.content">
                         <div  class="d-flex p-3 pb-0" v-if="i.split(':')[0] == '_img'">
-                            <img :src="getImage(i.split(':')[1])">
+                            <img :src="getImgUrl(i.split(':')[1])">
                         </div>
                         <div v-html="i" v-else></div>
                     </template>

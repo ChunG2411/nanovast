@@ -4,35 +4,6 @@ import Navbar from '../components/navbar.vue'
 import Footer from '../components/footer.vue'
 
 import data_json from '../assets/data/product_detail.json'
-import product_1_1_1 from '../assets/image/product/product1/product_1_1_1.jpg'
-import product_1_1_2 from '../assets/image/product/product1/product_1_1_2.jpg'
-import product_1_1_3 from '../assets/image/product/product1/product_1_1_3.jpg'
-import product_1_1_4 from '../assets/image/product/product1/product_1_1_4.jpg'
-import product_1_1_5 from '../assets/image/product/product1/product_1_1_5.jpg'
-import product_1_2_1 from '../assets/image/product/product1/product_1_2_1.jpg'
-import product_1_3_1 from '../assets/image/product/product1/product_1_3_1.jpg'
-import product_1_3_2 from '../assets/image/product/product1/product_1_3_2.jpg'
-import product_1_4_1 from '../assets/image/product/product1/product_1_4_1.jpg'
-import product_1_5_1 from '../assets/image/product/product1/product_1_5_1.jpg'
-import product_1_6_1 from '../assets/image/product/product1/product_1_6_1.jpg'
-import product_2_1_1 from '../assets/image/product/product2/product_2_1_1.jpg'
-import product_2_1_2 from '../assets/image/product/product2/product_2_1_2.jpg'
-import product_2_1_3 from '../assets/image/product/product2/product_2_1_3.jpg'
-import product_2_1_4 from '../assets/image/product/product2/product_2_1_4.jpg'
-import product_2_1_5 from '../assets/image/product/product2/product_2_1_5.jpg'
-import product_2_2_1 from '../assets/image/product/product2/product_2_2_1.jpg'
-import product_2_2_2 from '../assets/image/product/product2/product_2_2_2.jpg'
-import product_2_2_3 from '../assets/image/product/product2/product_2_2_3.jpg'
-import product_2_2_4 from '../assets/image/product/product2/product_2_2_4.jpg'
-import product_2_2_5 from '../assets/image/product/product2/product_2_2_5.jpg'
-import product_2_3_1 from '../assets/image/product/product2/product_2_3_1.jpg'
-import product_2_4_1 from '../assets/image/product/product2/product_2_4_1.jpg'
-import product_2_5_1 from '../assets/image/product/product2/product_2_5_1.jpg'
-import product_2_5_2 from '../assets/image/product/product2/product_2_5_2.jpg'
-import product_2_5_3 from '../assets/image/product/product2/product_2_5_3.jpg'
-import product_2_5_4 from '../assets/image/product/product2/product_2_5_4.jpg'
-import product_2_5_5 from '../assets/image/product/product2/product_2_5_5.jpg'
-import product_2_5_6 from '../assets/image/product/product2/product_2_5_6.jpg'
 
 import { useRoute } from 'vue-router'
 import { watch } from 'vue'
@@ -47,69 +18,10 @@ watch(()=> route.params.id_2, (newValue, _)=> {
 })
 window.scrollTo(0, 0)
 
-
-function getImage(id) {
-    switch (id) {
-        case "product_1_1_1":
-            return product_1_1_1
-        case "product_1_1_2":
-            return product_1_1_2
-        case "product_1_1_3":
-            return product_1_1_3
-        case "product_1_1_4":
-            return product_1_1_4
-        case "product_1_1_5":
-            return product_1_1_5
-        case "product_1_2_1":
-            return product_1_2_1
-        case "product_1_3_1":
-            return product_1_3_1
-        case "product_1_3_2":
-            return product_1_3_2
-        case "product_1_4_1":
-            return product_1_4_1
-        case "product_1_5_1":
-            return product_1_5_1
-        case "product_1_6_1":
-            return product_1_6_1
-        case "product_2_1_1":
-            return product_2_1_1
-        case "product_2_1_2":
-            return product_2_1_2
-        case "product_2_1_3":
-            return product_2_1_3
-        case "product_2_1_4":
-            return product_2_1_4
-        case "product_2_1_5":
-            return product_2_1_5
-        case "product_2_2_1":
-            return product_2_2_1
-        case "product_2_2_2":
-            return product_2_2_2
-        case "product_2_2_3":
-            return product_2_2_3
-        case "product_2_2_4":
-            return product_2_2_4
-        case "product_2_2_5":
-            return product_2_2_5
-        case "product_2_3_1":
-            return product_2_3_1
-        case "product_2_4_1":
-            return product_2_4_1
-        case "product_2_5_1":
-            return product_2_5_1
-        case "product_2_5_2":
-            return product_2_5_2
-        case "product_2_5_3":
-            return product_2_5_3
-        case "product_2_5_4":
-            return product_2_5_4
-        case "product_2_5_5":
-            return product_2_5_5
-        case "product_2_5_6":
-            return product_2_5_6
-    }
+const getImgUrl = (name) => {
+  return new URL(`../assets/image/product/${name}.jpg`, import.meta.url).href
 }
+
 </script>
 
 <template>
@@ -134,7 +46,7 @@ function getImage(id) {
                     <p class="header-custom fs-4 fw-bold mb-2">{{ data.header }}</p>
                     <template v-for="i in data.content">
                         <div  class="d-flex p-3 pb-0" v-if="i.split(':')[0] == '_img'">
-                            <img :src="getImage(i.split(':')[1])">
+                            <img :src="getImgUrl(i.split(':')[1])">
                         </div>
                         <div v-html="i" v-else></div>
                     </template>

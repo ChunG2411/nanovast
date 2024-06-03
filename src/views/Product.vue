@@ -4,19 +4,6 @@ import Navbar from '../components/navbar.vue'
 import Footer from '../components/footer.vue'
 
 import data_json from '../assets/data/product.json'
-import image_1_1 from '../assets/image/product/card/product_1_1.jpg'
-import image_1_2 from '../assets/image/product/card/product_1_2.jpg'
-import image_1_3 from '../assets/image/product/card/product_1_3.jpg'
-import image_1_4 from '../assets/image/product/card/product_1_4.jpg'
-import image_1_5 from '../assets/image/product/card/product_1_5.jpg'
-import image_1_6 from '../assets/image/product/card/product_1_6.jpg'
-import image_2_1 from '../assets/image/product/card/product_2_1.jpg'
-import image_2_2 from '../assets/image/product/card/product_2_2.jpg'
-import image_2_3 from '../assets/image/product/card/product_2_3.jpg'
-import image_2_4 from '../assets/image/product/card/product_2_4.jpg'
-import image_2_5 from '../assets/image/product/card/product_2_5.jpg'
-import image_3_1 from '../assets/image/product/card/product_3_1.jpg'
-import image_3_2 from '../assets/image/product/card/product_3_2.jpg'
 
 import { useRoute } from 'vue-router'
 import { watch } from 'vue'
@@ -31,36 +18,8 @@ watch(()=> route.params.id, (newValue, _)=> {
 })
 window.scrollTo(0, 0)
 
-
-function getImage(id) {
-    switch (route.params.id + '_' + id) {
-        case "1_1":
-            return image_1_1
-        case "1_2":
-            return image_1_2
-        case "1_3":
-            return image_1_3
-        case "1_4":
-            return image_1_4
-        case "1_5":
-            return image_1_5
-        case "1_6":
-            return image_1_6
-        case "2_1":
-            return image_2_1
-        case "2_2":
-            return image_2_2
-        case "2_3":
-            return image_2_3
-        case "2_4":
-            return image_2_4
-        case "2_5":
-            return image_2_5
-        case "3_1":
-            return image_3_1
-        case "3_2":
-            return image_3_2
-    }
+const getImgUrl = (name) => {
+  return new URL(`../assets/image/product/card/product_${name}.jpg`, import.meta.url).href
 }
 </script>
 
@@ -79,7 +38,7 @@ function getImage(id) {
         <div class="blog-content">
             <div class="blog-item" v-for="i in data">
                 <div class="blog-img">
-                    <img :src="getImage(i.id)">
+                    <img :src="getImgUrl(route.params.id + '_' + i.id)">
                 </div>
                 <div class="content">
                     <p>Tác giả: <span class="primary">Nanovast</span> Ngày: <span class="primary">01-06-2024</span></p>
