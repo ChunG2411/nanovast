@@ -66,6 +66,18 @@ const pagination = {
                     </div>
                 </div>
             </swiper-slide>
+            <swiper-slide>
+                <div class="slide-card">
+                    <div class="image-slot">
+                        <div class="cover-image"></div>
+                        <img src="../assets/image/slide/slide5.jpg">
+                    </div>
+                    <div class="content-slot">
+                        <p class="white fs-0 fw-bold content-head">Bột  Nano Canxi hydroxyapatite</p>
+                        <p class="white fs-4 mt-3 content-body">Nguyên liệu sản xuất thực phẩm chức năng bổ sung canxi </p>
+                    </div>
+                </div>
+            </swiper-slide>
         </swiper>                
     </div>
 </template>

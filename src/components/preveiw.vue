@@ -54,14 +54,14 @@ const props = defineProps({
     .image-slot {
         width: 80%;
         height: 80%;
-        max-width: 800px;
-        max-height: 500px;
+        max-width: 900px;
+        max-height: 600px;
         overflow: hidden;
 
         img {
             width: 100%;
             height: 100%;
-            object-fit: cover;
+            object-fit: contain;
         }
     }
 }

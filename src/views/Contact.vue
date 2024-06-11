@@ -5,6 +5,10 @@ import Footer from '../components/footer.vue'
 
 window.scrollTo(0, 0);
 
+function Send() {
+    alert("Đã gửi")
+}
+
 </script>
 
 <template>
@@ -31,17 +35,33 @@ window.scrollTo(0, 0);
                     <input type="text" placeholder="Chủ đề">
                 </div>
                 <textarea rows="5" cols="" placeholder="Nhập nội dung"></textarea>
-                <button>Gửi</button>
+                <button @click="Send">Gửi</button>
             </div>
             <div class="right">
                 <p class="fs-4 fw-bold">Địa chỉ liên hệ</p>
-                <div class="d-flex align-items-center gap-2">
+                <div class="d-flex align-items-center gap-3">
                     <div class="icon">
                         <i class="fas fa-map-marker-alt white"></i>
                     </div>
-                    <div>
-                        <p>Viện Hàn lâm Khoa học và Công nghệ</p>
-                        <p>Phòng Hoá vô cơ - Hoá lý</p>
+                    <div class="d-flex flex-column gap-1">
+                        <p>Viện Hóa học - Viện Hàn Lâm Khoa học và công nghệ Việt Nam</p>
+                        <p>Phòng Hóa Vô cơ - Hóa lý</p>
+                        <p>Địa chỉ: Nhà A18, số 18 Hoàng Quốc Việt, Cầu Giấy, Hà Nội</p>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center gap-3">
+                    <div class="icon">
+                        <i class="fa-solid fa-phone white"></i>
+                    </div>
+                    <div class="d-flex gap-3">
+                        <div class="d-flex flex-column gap-1">
+                            <p>TS. KSCC. Phạm Văn Lâm</p>
+                            <p>Ths. NCV. Quản Thị Thu Trang</p>
+                        </div>
+                        <div class="d-flex flex-column gap-1">
+                            <p>Mobile: 0904219227</p>
+                            <p>Mobile: 0368830617</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -83,13 +103,13 @@ window.scrollTo(0, 0);
         @include mobile {
             width: 95%;
         }
-        width: 80%;
+        width: 85%;
         display: flex;
         @include desktop {
             flex-direction: row;
         }
         flex-direction: column;
-        gap: 40px;
+        gap: 30px;
 
         .left {
             background-color: #EFF4F8;

@@ -61,7 +61,7 @@ window.scrollTo(0, 0);
     <div class="history-view">
         <div class="history-content">
             <div class="mb-4">
-                <p class="fs-2 fw-bold">Thành tựu nghiên cứu</p>
+                <p class="fs-3 fw-bold">Thành tựu nghiên cứu triển khai</p>
             </div>
             <div class="history-slide">
                 <div class="left">
@@ -207,6 +207,74 @@ window.scrollTo(0, 0);
                                     </div>
                                     <p>Nghiên cứu sản xuất hydroxyapatite từ vỏ sò ở quy mô pilot và đề xuất
                                         các hướng ứng dụng. Đề tài cấp tỉnh Thừa Thiên Huế. (2014 - 2016).
+                                    </p>
+                                </div>
+                            </div>
+                        </swiper-slide>
+                        <swiper-slide>
+                            <div class="history-card">
+                                <div class="img-slot">
+                                    <img src="../assets/image/about/history9.jpg">
+                                </div>
+                                <div class="history-slot">
+                                    <div class="d-flex flex-column align-items-center">
+                                        <p class="fs-2 fw-bold">2018</p>
+                                        <p class="fs-4 fw-bold">-</p>
+                                        <p class="fs-2 fw-bold">2019</p>
+                                    </div>
+                                    <p>"Nghiên cứu chế tạo vật liệu hấp phụ Amoni và phốt phát tiền tiến, ứng dụng xử lý nước ăn uống ở quy mô vừa và nhỏ".
+                                        Đề tài độc lập cấp viện Hàn lâm Khoa học và Công nghệ Việt Nam
+                                    </p>
+                                </div>
+                            </div>
+                        </swiper-slide>
+                        <swiper-slide>
+                            <div class="history-card">
+                                <div class="img-slot">
+                                    <img src="../assets/image/about/history10.jpg">
+                                </div>
+                                <div class="history-slot">
+                                    <div class="d-flex flex-column align-items-center">
+                                        <p class="fs-2 fw-bold">2020</p>
+                                        <p class="fs-4 fw-bold">-</p>
+                                        <p class="fs-2 fw-bold">2021</p>
+                                    </div>
+                                    <p>“Nghiên cứu phân hủy thuốc nhuộm trong nước, sử dụng Plasma không nhiệt kết hợp với xúc tác Feo/bentonite”.
+                                        Đề tài hướng môi trường và năng lượng, thuộc 8 hướng ưu tiên cấp viện Hàn lâm Khoa học và Công nghệ Việt Nam.
+                                    </p>
+                                </div>
+                            </div>
+                        </swiper-slide>
+                        <swiper-slide>
+                            <div class="history-card">
+                                <div class="img-slot">
+                                    <img src="../assets/image/about/history11.jpg">
+                                </div>
+                                <div class="history-slot">
+                                    <div class="d-flex flex-column align-items-center">
+                                        <p class="fs-2 fw-bold">2021</p>
+                                        <p class="fs-4 fw-bold">-</p>
+                                        <p class="fs-2 fw-bold">2022</p>
+                                    </div>
+                                    <p>Dự án: “Sản xuất vật liệu hấp phụ và lõi lọc amoni sử dụng loại bỏ amoni trong nước ăn uống”. 
+                                        Dự án phát triển sản phẩm thương mại - cấp viện Hàn lâm Khoa học và Công nghệ Việt Nam
+                                    </p>
+                                </div>
+                            </div>
+                        </swiper-slide>
+                        <swiper-slide>
+                            <div class="history-card">
+                                <div class="img-slot">
+                                    <img src="../assets/image/about/history12.jpg">
+                                </div>
+                                <div class="history-slot">
+                                    <div class="d-flex flex-column align-items-center">
+                                        <p class="fs-2 fw-bold">2023</p>
+                                        <p class="fs-4 fw-bold">-</p>
+                                        <p class="fs-2 fw-bold">2024</p>
+                                    </div>
+                                    <p>“Tổng hợp bột nano selen ổn định trong mạng polysaccharide, định hướng tạo sản phẩm hỗ trợ điều trị bệnh tiểu đường”. 
+                                        Đề tài hướng KHCN ưu tiên: Khoa học vật liệu - Cấp viện Hàn lâm Khoa học và Công nghệ Việt Nam.
                                     </p>
                                 </div>
                             </div>
@@ -375,6 +443,7 @@ window.scrollTo(0, 0);
                     }
                     .history-slot {
                         display: flex;
+                        align-items: center;
                         gap: 20px;
                         @include mobile {
                             flex-direction: column;

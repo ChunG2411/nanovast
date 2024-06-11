@@ -29,9 +29,23 @@ $(window).scroll(()=>{
                 <p class="fs-4 fw-bold mb-4">Liên hệ với chúng tôi</p>
                 <div class="d-flex gap-3 align-items-center">
                     <i class="fas fa-map-marker-alt primary"></i>
-                    <div>
-                        <p>Viện Hàn lâm Khoa học và Công nghệ</p>
-                        <p>Phòng Hoá vô cơ - Hoá lý</p>
+                    <div class="d-flex flex-column gap-1">
+                        <p>Viện Hóa học - Viện Hàn Lâm Khoa học và công nghệ Việt Nam</p>
+                        <p>Phòng Hóa Vô cơ - Hóa lý</p>
+                        <p>Địa chỉ: Nhà A18, số 18 Hoàng Quốc Việt, Cầu Giấy, Hà Nội</p>
+                    </div>
+                </div>
+                <div class="d-flex gap-3 align-items-center mt-4">
+                    <i class="fa-solid fa-phone primary"></i>
+                    <div class="d-flex gap-3">
+                        <div class="d-flex flex-column gap-1">
+                            <p>TS. KSCC. Phạm Văn Lâm</p>
+                            <p>Ths. NCV. Quản Thị Thu Trang</p>
+                        </div>
+                        <div class="d-flex flex-column gap-1">
+                            <p>Mobile: 0904219227</p>
+                            <p>Mobile: 0368830617</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -51,9 +65,9 @@ $(window).scroll(()=>{
 .footer-view {
     width: 100%;
     @include mobile {
-        padding: 30px 40px;
+        padding: 50px 35px;
     }
-    padding: 70px 70px 30px 70px;
+    padding: 70px;
     background: url('../assets/background/home_gallery.jpg');
     background-size: cover;
     display: flex;
@@ -85,11 +99,11 @@ $(window).scroll(()=>{
 .scroll-button {
     position: fixed;
     @include mobile {
-        width: 40px;
-        height: 40px;
+        width: 35px;
+        height: 35px;
     }
-    bottom: 20px;
-    right: 20px;
+    bottom: 15px;
+    right: 15px;
     z-index: 90;
     padding: 10px;
     background-color: var(--primary_color);

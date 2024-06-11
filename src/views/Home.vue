@@ -5,16 +5,7 @@ import Footer from '../components/footer.vue'
 import Preveiw from '../components/preveiw.vue'
 import Header from '../components/header.vue'
 import Navbar from '../components/navbar.vue'
-
 import blog1 from '../assets/image/blog/blog1.jpg'
-import gallery1 from '../assets/image/gallery/gallery1.jpg'
-import gallery2 from '../assets/image/gallery/gallery2.jpg'
-import gallery3 from '../assets/image/gallery/gallery3.jpg'
-import gallery4 from '../assets/image/gallery/gallery4.jpg'
-import gallery5 from '../assets/image/gallery/gallery5.jpg'
-import gallery6 from '../assets/image/gallery/gallery6.jpg'
-import gallery7 from '../assets/image/gallery/gallery7.jpg'
-import gallery8 from '../assets/image/gallery/gallery8.jpg'
 
 import { reactive } from 'vue'
 
@@ -30,6 +21,10 @@ function showImage(src) {
 }
 
 window.scrollTo(0, 0);
+
+const getImgUrl = (name) => {
+  return new URL(`../assets/image/gallery/${name}.jpg`, import.meta.url).href
+}
 
 </script>
 
@@ -56,7 +51,7 @@ window.scrollTo(0, 0);
             <div class="infor-right">
                 <div>
                     <p class="fs-3 fw-bold">Về chúng tôi</p>
-                    <p>Phòng Hoá vô cơ - Hoá lý Viện Hàn lâm Khoa học và Công nghệ</p>
+                    <p>Phòng Hoá vô cơ - Hoá lý, Viện Hóa học - Viện Hàn lâm Khoa học và Công nghệ Việt Nam</p>
                 </div>
                 <div class="infor-list">
                     <div>
@@ -74,7 +69,7 @@ window.scrollTo(0, 0);
                         </div>
                         <div>
                             <p class="fs-5 fw-bold">Lĩnh vực nghiên cứu</p>
-                            <p>Nghiên cứu vật liệu ứng dụng trong y sinh và dược học, chuyển hoá năng lượng</p>
+                            <p>Nghiên cứu chế tạo các vật liệu ứng dụng trong y sinh và dược học, các vật liệu chuyển hoá và tích trữ năng lượng, các vật liệu tiền tiến và công nghệ tương ứng trong xử lý môi trường</p>
                         </div>
                     </div>
                     <div>
@@ -83,7 +78,7 @@ window.scrollTo(0, 0);
                         </div>
                         <div>
                             <p class="fs-5 fw-bold">Thành tựu</p>
-                            <p>Nhiều đề tài dự án nghiên cứu đã được nghiệm thu</p>
+                            <p>Nhiều đề tài dự án nghiên cứu đã được nghiệm thu. Nhiều sản phẩm đã được ứng dụng trong thực tế</p>
                         </div>
                     </div>
                     <div>
@@ -171,82 +166,12 @@ window.scrollTo(0, 0);
                 <p class="fs-3 fw-bold">Bộ sưu tập</p>
             </div>
             <div class="gallery-list">
-                <div class="gallery-item">
+                <div class="gallery-item" v-for="i in 10">
                     <div class="gallery-img">
-                        <img :src="gallery2">
+                        <img :src="getImgUrl(`gallery${i}`)">
                     </div>
                     <div class="gallery-link">
-                        <div class="icon" @click="showImage(gallery2)">
-                            <i class="fa-solid fa-link fs-5 primary"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="gallery-item">
-                    <div class="gallery-img">
-                        <img :src="gallery3">
-                    </div>
-                    <div class="gallery-link">
-                        <div class="icon" @click="showImage(gallery3)">
-                            <i class="fa-solid fa-link fs-5 primary"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="gallery-item">
-                    <div class="gallery-img">
-                        <img :src="gallery4">
-                    </div>
-                    <div class="gallery-link">
-                        <div class="icon" @click="showImage(gallery4)">
-                            <i class="fa-solid fa-link fs-5 primary"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="gallery-item">
-                    <div class="gallery-img">
-                        <img :src="gallery5">
-                    </div>
-                    <div class="gallery-link">
-                        <div class="icon" @click="showImage(gallery5)">
-                            <i class="fa-solid fa-link fs-5 primary"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="gallery-item">
-                    <div class="gallery-img">
-                        <img :src="gallery6">
-                    </div>
-                    <div class="gallery-link">
-                        <div class="icon" @click="showImage(gallery6)">
-                            <i class="fa-solid fa-link fs-5 primary"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="gallery-item">
-                    <div class="gallery-img">
-                        <img :src="gallery7">
-                    </div>
-                    <div class="gallery-link">
-                        <div class="icon" @click="showImage(gallery7)">
-                            <i class="fa-solid fa-link fs-5 primary"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="gallery-item">
-                    <div class="gallery-img">
-                        <img :src="gallery8">
-                    </div>
-                    <div class="gallery-link">
-                        <div class="icon" @click="showImage(gallery8)">
-                            <i class="fa-solid fa-link fs-5 primary"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="gallery-item">
-                    <div class="gallery-img">
-                        <img :src="gallery1">
-                    </div>
-                    <div class="gallery-link">
-                        <div class="icon" @click="showImage(gallery1)">
+                        <div class="icon" @click="showImage(getImgUrl(`gallery${i}`))">
                             <i class="fa-solid fa-link fs-5 primary"></i>
                         </div>
                     </div>
@@ -256,7 +181,7 @@ window.scrollTo(0, 0);
     </div>
 
     <!-- ------------------------------------blog view--------------------------------- -->
-    <div class="blog-view">
+    <!-- <div class="blog-view">
         <div class="blog-content">
             <div class="text-center w-50">
                 <p class="fs-3 fw-bold">Bài viết của chúng tôi</p>
@@ -289,7 +214,7 @@ window.scrollTo(0, 0);
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- ------------------------------------prize view--------------------------------- -->
     <!-- <div class="prize-view">

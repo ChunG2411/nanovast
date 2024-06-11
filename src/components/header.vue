@@ -5,7 +5,7 @@
     <div class="header">
         <div class="d-flex gap-5">
             <div class="d-flex align-items-center gap-2">
-                <p class="white">Viện Hàn lâm Khoa học và Công nghệ</p>
+                <p class="white">Viện Hóa học - Viện Hàn lâm Khoa học và Công nghệ Việt Nam</p>
             </div>
             <div class="d-flex align-items-center gap-2">
                 <p class="white">Phòng Hoá vô cơ - Hoá lý</p>
