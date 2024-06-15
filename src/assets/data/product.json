@@ -34,7 +34,7 @@
     [
         {
             "id" : "1",
-            "header" : "Bộ lọc đầu nguồn",
+            "header" : "Hệ thống lọc tổng đầu nguồn",
             "content" : "Nguồn nước sinh hoạt đang ngày càng ô nhiễm đe dọa sức khỏe con người. Sử dụng máy lọc nước sinh hoạt được coi là biện pháp xử lý nước hiệu quả để tao ra nguồn nước sinh hoạt, ăn uống tinh khiết, bảo vệ sức khỏe."
         },
         {
@@ -61,13 +61,28 @@
     [
         {
             "id" : "1",
-            "header" : "Vật liệu hấp phụ Amoni",
-            "content" : "Vật liệu hydrogel chứa thành phần chính là Chitosan, poly (acrylic acid) ghép vào các vị trí -NH2 và -OH trên xương sống chitosan và các liên kết ngang hình thành khi phản ứng với N,N-Methylenebisacrylamide"
+            "header" : "Vật liệu lọc Amonium: VH-AMONI(F)/2023",
+            "content" : "Ammonium (NH4+) là chất gây ô nhiễm nước phổ biến và được coi là khó xử lý. Ô nhiễm nước bởi amoni dẫn đến suy thoái nghiêm trọng hệ sinh thái dưới nước và gây ra rủi ro đáng kể cho sức khỏe con người. Hấp phụ là một phương pháp đầy hứa hẹn để loại bỏ amoni."
         },
         {
             "id" : "2",
             "header" : "Vật liệu hấp phụ asen hiệu năng cao NC-F20",
-            "content" : "Phòng Vô cơ Hóa lý, Viện hóa học (Viện Khoa học và Công nghệ Việt Nam) đã phát triển một kỹ thuật chế tạo vật liệu gốm xốp tổ hợp nanocomposite bao gồm Fe3O4 kích thước 10-12 nm trên chất mang Bentonite (NC-F20)"
+            "content" : "Ô nhiễm asen trong nước ngầm (nguồn nước uống phổ biến nhất trên thế giới), được xem là một cuộc khủng hoảng chưa từng có trong lịch sử thế giới hiện đại. Ô nhiễm asen theo diện rộng đã gây ngộ độc đến số lượng lớn dân chúng."
+        },
+        {
+            "id" : "3",
+            "header" : "Vật liệu xúc tác oxy hóa hấp phụ nanocomposite oxit phức hợp (Fe-Mn) trên nền Ben tonite tách lớp (ký hiệu là NC-MF)",
+            "content" : "Dạng asen phổ biến trong nước ngầm là As(III), chúng có độc tính cao và rất khó loại bỏ. Thông thường cần phải oxy hóa As(III) thành As(V) bằng các tác nhân hóa học như O2, ozon, H2O2, KMnO4, Cl2 … Điều đó dẫn đến phức tạp hóa và chi phí cao cho hệ thống tiền oxy hóa."
+        },
+        {
+            "id" : "4",
+            "header" : "Lõi lọc As và kim loại nặng NANOVAST",
+            "content" : ":Loại bỏ Asen và các kim loại nặng có trong nước bằng phương pháp hấp phụ chọn lọc trên hai vật liệu tiên tiến tích hợp trong cùng một lõi lọc - vật liệu nanocomposite hấp phụ asen hiệu năng cao NC-F20 và vật liệu nanocomposite xúc tác hấp phụ asen chọn lọc NC-MF"
+        },
+        {
+            "id" : "5",
+            "header" : "Lõi lọc ammonium: VH-AMONI(A)/2023",
+            "content" : "Loại bỏ ammonium trong nước bằng phương pháp hấp phụ chọn lọc trên vật liệu tiên tiến - vật liệu nanocomposite hydrogel hấp phụ ammonium chọn lọc do phòng Hóa Vô cơ - Hóa lý (Viện Hóa học) nghiên cứu phát triển và sản xuất trong nước"
         }
     ]
 ]

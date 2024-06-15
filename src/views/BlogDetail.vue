@@ -14,7 +14,7 @@ var data = data_json[(parseInt(route.params.id) - 1)]
 window.scrollTo(0, 0);
 
 const getImgUrl = (name) => {
-  return new URL(`../assets/image/blog/blog${name}.jpg`, import.meta.url).href
+  return new URL(`../assets/image/blog/${name}.jpg`, import.meta.url).href
 }
 </script>
 
@@ -32,14 +32,14 @@ const getImgUrl = (name) => {
     <div class="blog-view">
         <div class="blog-content">
             <div class="blog-item">
-                <div class="blog-img">
+                <!-- <div class="blog-img">
                     <img :src="getImgUrl(data.id)">
-                </div>
+                </div> -->
                 <div class="content">
                     <p>Tác giả: <span class="primary">Nanovast</span> Ngày: <span class="primary">01-06-2024</span></p>
                     <p class="header-custom fs-4 fw-bold mb-2">{{ data.header }}</p>
                     <template v-for="i in data.content">
-                        <div  class="d-flex p-3 pb-0" v-if="i.split(':')[0] == '_img'">
+                        <div  class="content-img" v-if="i.split(':')[0] == '_img'">
                             <img :src="getImgUrl(i.split(':')[1])">
                         </div>
                         <div v-html="i" v-else></div>
@@ -90,7 +90,7 @@ const getImgUrl = (name) => {
                 width: 100%;
             }
             width: 90%;
-            padding: 0 15px 15px 15px;
+            padding: 0 10px 10px 10px;
             background-color: #EFF4F8;
             position: relative;
             display: flex;
@@ -123,16 +123,30 @@ const getImgUrl = (name) => {
             .content {
                 padding: 30px 40px;
                 @include mobile {
-                    padding: 20px 20px;
-                    margin-top: 150px;
+                    padding: 10px 10px;
+                    // margin-top: 150px;
+                    margin-top: 10px;
                 }
                 margin-top: 330px;
+                margin-top: 15px;
                 height: max-content;
                 z-index: 10;
                 background-color: var(--color_white);
                 display: flex;
                 flex-direction: column;
                 gap: 10px;
+
+                .content-img {
+                    justify-content: center;
+                    display: flex;
+
+                    img {
+                        width: 80%;
+                        @include mobile {
+                            width: 100%;
+                        }
+                    }
+                }
             }
         }
     }

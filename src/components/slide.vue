@@ -46,6 +46,18 @@ const pagination = {
                 <div class="slide-card">
                     <div class="image-slot">
                         <div class="cover-image"></div>
+                        <img src="../assets/image/slide/slide5.jpg">
+                    </div>
+                    <div class="content-slot">
+                        <p class="white fs-0 fw-bold content-head">Vật liệu xúc tác hấp phụ tiên tiến</p>
+                        <p class="white fs-4 mt-3 content-body">Các vật liệu cấu trúc nanocomposite có khả năng hấp phụ hiệu quả các tác nhân ô nhiễm: Asen, Kim loại nặng, Ammonium, Chất hữu cơ</p>
+                    </div>
+                </div>
+            </swiper-slide>
+            <swiper-slide>
+                <div class="slide-card">
+                    <div class="image-slot">
+                        <div class="cover-image"></div>
                         <img src="../assets/image/slide/slide3.jpg">
                     </div>
                     <div class="content-slot">
@@ -112,7 +124,7 @@ const pagination = {
                 left: 0;
                 width: 100%;
                 height: 100%;
-                background-color: rgba(0, 0, 0, 0.781);
+                background-color: rgba(0, 0, 0, 0.626);
             }
         }
         .content-slot {

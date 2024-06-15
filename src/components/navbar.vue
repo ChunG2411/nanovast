@@ -20,7 +20,7 @@ function showChild() {
     }
     else {
         child.style.visibility = 'visible'
-        child.style.height = '160px'
+        child.style.height = '220px'
         status = true
     }
 }
@@ -45,15 +45,16 @@ function showChild() {
                     </div>
                     <div class="nav-item-drop">
                         <router-link to="/product/1">Máy lọc nước gia đình</router-link>
-                        <router-link to="/product/2">Máy lọc tổng</router-link>
-                        <router-link to="/product/3" style="border: 0;">Vật liệu lọc</router-link>
+                        <router-link to="/product/2">Hệ thống lọc tổng đầu nguồn</router-link>
+                        <router-link to="/product/3">Vật liệu lọc và lõi lọc</router-link>
+                        <router-link to="/blog/1" style="border: 0;">Vật liệu ứng dụng trong y sinh và dược học</router-link>
                     </div>
                 </div>
-                <div class="nav-item">
+                <!-- <div class="nav-item">
                     <div class="item-top">
                         <router-link to="/blog">Bài viết</router-link>
                     </div>
-                </div>
+                </div> -->
                 <div class="nav-item">
                     <div class="item-top">
                         <router-link to="/information">Thông tin</router-link>
@@ -73,11 +74,12 @@ function showChild() {
                         <a class="d-flex justify-content-between" @click="showChild">Sản phẩm <i class="fa-solid fa-chevron-right me-2"></i></a>
                         <div class="drop-2">
                             <router-link to="/product/1">Máy lọc nước gia đình</router-link>
-                            <router-link to="/product/2">Máy lọc tổng</router-link>
-                            <router-link to="/product/3">Vật liệu lọc</router-link>
+                            <router-link to="/product/2">Hệ thống lọc tổng đầu nguồn</router-link>
+                            <router-link to="/product/3">Vật liệu lọc và lõi lọc</router-link>
+                            <router-link to="/blog/1">Vật liệu ứng dụng trong y sinh và dược học</router-link>
                         </div>
                     </div>
-                    <router-link to="/blog">Bài viết</router-link>
+                    <!-- <router-link to="/blog">Bài viết</router-link> -->
                     <router-link to="/information">Thông tin</router-link>
                     <router-link to="/contact" style="border: 0;">Liên hệ</router-link>
                 </div>

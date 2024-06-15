@@ -44,7 +44,7 @@ $(window).scroll(()=>{
                         </div>
                         <div class="d-flex flex-column gap-1">
                             <p>Mobile: 0904219227</p>
-                            <p>Mobile: 0368830617</p>
+                            <p>Mobile: 0368830616</p>
                         </div>
                     </div>
                 </div>
