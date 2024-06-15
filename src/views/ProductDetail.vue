@@ -142,7 +142,7 @@ const getImgUrl = (name) => {
                     display: flex;
 
                     img {
-                        width: 80%;
+                        width: 70%;
                         @include mobile {
                             width: 100%;
                         }
