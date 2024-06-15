@@ -163,7 +163,7 @@ const getImgUrl = (name) => {
     <div class="gallery-view" id="gallery">
         <div class="gallery-content">
             <div class="text-center w-50">
-                <p class="fs-3 fw-bold">Bộ sưu tập</p>
+                <p class="fs-3 fw-bold text-center">Bộ sưu tập</p>
             </div>
             <div class="gallery-list">
                 <div class="gallery-item" v-for="i in 10">

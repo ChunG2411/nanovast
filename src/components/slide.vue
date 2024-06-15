@@ -97,6 +97,10 @@ const pagination = {
 <style scoped lang="scss">
 @import '../assets/css/mixins.scss';
 
+p{
+    text-align: center;
+}
+
 .slide {
     width: 100%;
     height: 700px;
