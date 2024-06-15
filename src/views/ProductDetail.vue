@@ -42,7 +42,7 @@ const getImgUrl = (name) => {
                     <img :src="getImage('product_1_1_1')">
                 </div> -->
                 <div class="content">
-                    <p>Tác giả: <span class="primary">Nanovast</span> Ngày: <span class="primary">01-06-2024</span></p>
+                    <p>Tác giả: <span class="primary">Nanovast</span> Ngày: <span class="primary">01-04-2024</span></p>
                     <p class="header-custom fs-4 fw-bold mb-2">{{ data.header }}</p>
                     <template v-for="i in data.content">
                         <div class="content-img" v-if="i.split(':')[0] == '_img'">

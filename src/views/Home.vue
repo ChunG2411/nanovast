@@ -195,7 +195,7 @@ const getImgUrl = (name) => {
                         <div class="d-flex gap-3 mb-3">
                             <div class="d-flex align-items-center gap-2">
                                 <i class="fas fa-calendar-alt primary"></i>
-                                <p class="primary">01-06-2024</p>
+                                <p class="primary">01-04-2024</p>
                             </div>
                             <div class="d-flex align-items-center gap-2">
                                 <i class="far fa-user primary"></i>

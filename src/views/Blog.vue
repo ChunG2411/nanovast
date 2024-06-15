@@ -48,7 +48,7 @@ function getImage(id) {
                     <img :src="getImage(i.id)">
                 </div>
                 <div class="content">
-                    <p>Tác giả: <span class="primary">Nanovast</span> Ngày: <span class="primary">01-06-2024</span></p>
+                    <p>Tác giả: <span class="primary">Nanovast</span> Ngày: <span class="primary">01-04-2024</span></p>
                     <p class="header-custom fs-4 fw-bold">{{ i.header }}</p>
                     <p class="body-custom">{{ i.content }}</p>
                     <router-link class="button-custom mt-3" :to="'/blog/' + i.id">Đọc thêm</router-link>
