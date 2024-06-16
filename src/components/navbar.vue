@@ -218,6 +218,7 @@ function showChild() {
                     border-bottom-left-radius: 5px;
                     min-width: 200px;
                     width: max-content;
+                    max-width: 350px;
 
                     visibility: hidden;
                     transform: rotateX(-75deg);

@@ -67,7 +67,7 @@ window.scrollTo(0, 0);
                 <div class="left">
                     <swiper :slides-per-view="1" :space-between="50" :loop="true"
                         :autoplay="{
-                            delay: 2000,
+                            delay: 5000,
                             disableOnInteraction: false,
                         }" :modules="[Autoplay]" :speed="500">
                         <swiper-slide>

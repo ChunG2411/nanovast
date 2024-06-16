@@ -50,7 +50,6 @@
                 "<p class='fw-bold'>Tính năng của các phụ kiện</p>",
                 "_img:product_1_1_5"
             ]
-
         },
         {
             "id" : "2",
@@ -76,26 +75,17 @@
         },
         {
             "id" : "3",
-            "header" : "Lõi lọc hydrogel CAB/CGA",
+            "header" : "Lõi lọc ammonium: VH-AMONI(F)/2023",
             "content" : [
-                "<p class='fw-bold'>Cấu tạo:</p>",
-                "<p>Lõi lọc hydrogel CAB/CGA là lõi lọc số 2 trong máy lọc nước nanovast, được sản xuất phòng vô cơ hóa lý, viện Hóa học, viện Hàn lâm khoa học công nghệ Việt Nam</p>",
-                "<p>Vật liệu hydrogel chứa thành phần chính là Chitosan, poly (acrylic acid) ghép vào các vị trí -NH2 và -OH trên xương sống chitosan và các liên kết ngang hình thành khi phản ứng với N,N′-Methylenebisacrylamide cùng chất độn bentonite tạo thành không gian 3 chiều giúp bao bọc lấy nước chứa tác nhân ô nhiễm amoni.</p>",
-                "<p>Vật liệu CAB/CGA màu vàng đặc trưng, kích thước từ 300 - 900 µm bề mặt thô rát, chủ yếu tập trung 400-600 µm.</p>",
+                "<p>Lõi lọc ammonium: VH-AMONI(F)/2023 là lõi lọc có thể thay thế cho lõi lọc số 2 (lõi lọc phốt phát và amoni - chứa vật liệu Beamos) trong máy lọc nước NANOVAST. Lõi lọc này sử dụng trong trường hợp nước nguồn nhiễm Ammonium tương đối cao (10- 20mg/l). Đây là lõi lọc được sản xuất tại phòng Hóa vô cơ - Hóa lý (Viện Hóa học - Viện Hàn lâm Khoa học và Công nghệ Việt Nam. Vật liệu lọc tích hợp trong lõi lọc là vật liệu VH-AMONI(A)/2023.</p>",
+                "<p>VH-AMONI(F)/2023 là vật liệu polyme nanocomposite hydrogel mạng xen kẽ CAB với CGA sử dụng kỹ thuật in phân tử. (CAB là nanocomposite Chitosan - g - poly (acrylic acide)/bentonite; CGA là mạng polyme Chitosan - glutaraldehyde); vật liệu dạng hạt, mầu nâu vàng.</p>",
                 "_img:product_1_3_1",
-                "<p>Hình 1: 50 g vật liêu CAB/CGA sau khi tổng hợp và làm khô</p>",
+                "<p class='text-center mb-1'>Hình 1: Vật liệu VH-AMONI(A)/2023 sau khi tổng hợp và làm khô</p>",
                 "_img:product_1_3_2",
-                "<p>Hình 2: Lõi lọc amoni vật liệu CAB/CGA và quả lọc kết nối máy lọc nước. Có trọng lượng khô 400g, trọng lượng ướt 3000g, nồng độ NH4+ xử lý 2-100 mg/l, lưu lượng 10 lít/giờ</p>",
-                "<p class='fw-bold'>Chức năng</p>",
-                "<p>Tại vùng nồng độ thấp dưới 20 ppm, vật liệu hấp phụ hoàn toàn rất phù hợp sử dụng làm vật liệu xử lý tích hợp trong hệ thống yêu cầu dễ dàng sử dụng như hệ thống máy lọc nước gia đình nanovast</p>",
-                "<p>Có khả năng hấp phụ kim loại nặng…</p>",
-                "<p class='fw-bold'>Ứng dụng</p>",
-                "<p>Lõi lọc nước sinh hoạt loại bỏ amoni và các kim loại nặng </p>",
-                "<p>CAB/CGA thể hiện khả năng hấp phụ amoni rất tốt với dung lượng hấp phụ tới 125 mg/g vật liệu.  Vật liệu hấp phụ rất tốt với nguồn đầu vào dưới 10 mg/l đạt hiệu suất xử lý trên 99% phù hợp mới nguồn nước cấp từ nhà máy nước cung cấp tới người dân.  Đối nồng đô ô nhiễm amoni khoảng 10- 20 mg/l</p>",
-                "<p class='fw-bold'>Thời gian sử dụng</p>",
-                "<p>400 g vật liệu trong 1 lõi lọc xử lý được 2500-5000 lít nước ô nhiễm, hiệu suất xử lý amoni bằng vật liệu hydrogel CAB/CGA khoảng nồng độ 2-20 mg/l NH4+ đạt hiệu quả xấp xỉ 100% </p>",
-                "<p>Do có khả năng hấp phụ amoni tốt, độ bền cơ học, độ bền hóa học cao và có thể tái sử dụng nhiều lần bằng dung dịch kiễm loãng NaOH 0,1 M, sau đó được rửa sạch kiềm dư bằng nước sạch. Vật liệu đều có hiệu suất hấp phụ NH4+ đạt trên 84% sau khi rửa giải.</p>",
-                "<p>Với khả năng rửa giải, lõi lọc hydrogel CAB/CGA là giải pháp thông minh và tiết kiệm trong công nghệ lọc nước trong máy lọc nước nanovast.</p>"
+                "<p class='text-center mb-1'>Hình 2: Lõi lọc VH-AMONI(A)/2023 và quả lọc kết nối trong máy lọc nước</p>",
+                "<p>Lõi lọc có khả năng hấp phụ ammonium rất tốt với dung lượng hấp phụ tới 125 mg/g vật liệu. Vật liệu hấp phụ hoạt động hiệu quả với nguồn đầu vào dưới < 20 mg/l đạt hiệu suất xử lý trên 99%.</p>",
+                "<p>Lõi lọc có thể hoàn nguyên dễ dàng nhiều lần để tái sử dụng (>7 lần) bằng dung dịch NaOH 0,1M mà vẫn bảo toàn được dung lượng hấp phụ.</p>",
+                "_img:product_3_1_5"                
             ]
         },
         {
@@ -208,7 +198,7 @@
                 "<p>Cát thạch anh là một trong những loại khoáng vật phổ biến nhất trên trái đất. Về nguồn gốc cát thạch anh, chúng có thể được tìm thấy ở rất nhiều nơi, từ khu vực sa mạc đến vùng đất ngập nước và đáy biển.</p>",
                 "<p>Ở thời điểm hiện tại, Brazil đang là quốc gia sản xuất cát thạch anh lớn nhất thế giới, chiếm khoảng 30% sản lượng toàn cầu. Trong khi đó, cát thạch anh thường được khai thác chủ yếu tại các vùng miền Trung ở Việt Nam.</p>",
                 "_img:product_2_2_1",
-                "<p>Hình 1: Cát thạch anh là một trong những loại khoáng vật phổ biến nhất trên trái đất</p>",
+                "<p class='text-center mb-1'>Hình 1: Cát thạch anh là một trong những loại khoáng vật phổ biến nhất trên trái đất</p>",
                 "<p class='fw-bold fs-5'>Thuộc tính cơ bản của cát thạch anh</p>",
                 "<p>Để hiểu rõ hơn về cát thạch anh, chúng ta sẽ cùng nhau điểm qua những thuộc tính cơ bản của loại vật liệu này. Cụ thể:</p>",
                 "<p>- Công thức hóa học: Công thức hóa học của cát thạch anh là SiO₂ (tức Silic Dioxit). </p>",
@@ -225,7 +215,7 @@
                 "<p>- Ngành điện tử: Cát thạch anh được sử dụng để sản xuất các dòng sản phẩm điện tử như vi mạch, chip, màn hình LCD...</p>",
                 "<p>- Ngành chế biến thực phẩm: Cát thạch anh được dùng trong quá trình chế biến thực phẩm, giúp loại bỏ tạp chất có trong nguyên liệu thực phẩm và cải thiện chất lượng sản phẩm.</p>",
                 "_img:product_2_2_2",
-                "<p>Hình 2: Cát thạch anh có tính linh hoạt cao và được ứng dụng trong nhiều lĩnh vực của cuộc sống</p>",
+                "<p class='text-center mb-1'>Hình 2: Cát thạch anh có tính linh hoạt cao và được ứng dụng trong nhiều lĩnh vực của cuộc sống</p>",
                 "<p class='fw-bold fs-5'>Ưu, nhược điểm của cát thạch anh lọc nước</p>",
                 "<p class='fw-bold'>Ưu điểm của cát thạch anh lọc nước</p>",
                 "<p>- Loại bỏ các tạp chất có trong nước như cát, bùn, rong rêu, tạp chất không tan và vật thể lơ lửng, góp phần làm sạch nguồn nước về mặt cảm quan.</p>",
@@ -240,7 +230,7 @@
                 "<p>- Trung hòa pH: Cát lọc nước thạch anh có khả năng trung hòa pH của nước, giúp cân bằng độ Axit-kiềm trong nước.</p>",
                 "<p>- Loại bỏ các tạp chất độc hại: Một số tạp chất độc hại tồn tại ở dạng thô, lơ lửng sẽ được cát thạch anh lọc nước loại bỏ khỏi nguồn nước, tránh gây ra các tác động tiêu cực đến sức khỏe con người.</p>",
                 "_img:product_2_2_3",
-                "<p>Hình 3: Cát lọc thạch anh được sử dụng như một loại vật liệu lọc với nhiệm vụ ngăn chặn các cặn bẩn lơ lửng có trong nước</p>",
+                "<p class='text-center mb-1'>Hình 3: Cát lọc thạch anh được sử dụng như một loại vật liệu lọc với nhiệm vụ ngăn chặn các cặn bẩn lơ lửng có trong nước</p>",
                 "<p class='fw-bold fs-5'>Dùng cát thạch anh như thế nào để hiệu quả? Lưu ý khi sử dụng</p>",
                 "<p>Dùng cát thạch anh như thế nào để hiệu quả? Trong phần tiếp theo của bài viết, Famy sẽ chia sẻ đến bạn đọc cách sử dụng cát thạch anh hiệu quả và một vài lưu ý khi dùng loại vật liệu này.</p>",
                 "<p class='fw-bold'>Cách sử dụng cát thạch anh hiệu quả</p>",
@@ -252,7 +242,7 @@
                 "<p>Không nên sử dụng cát thạch anh lọc nước đã qua sử dụng hoặc bị hư hỏng: Sử dụng cát thạch anh đã qua sử dụng hoặc bị hư hỏng có thể gây ô nhiễm môi trường và không đảm bảo an toàn sức khỏe cho người sử dụng.</p>",
                 "<p>Thực hiện đầy đủ quy trình vệ sinh và bảo trì thiết bị lọc: Khi sử dụng cát thạch anh trong hệ thống lọc tổng, cần đảm bảo thực hiện đầy đủ quy trình vệ sinh và bảo trì thiết bị để đảm bảo an toàn sức khỏe cho người sử dụng. Việc thường xuyên vệ sinh và bảo trì thiết bị giúp đảm bảo rằng hệ thống lọc nước hoạt động hiệu quả và giảm thiểu rủi ro ô nhiễm nước.</p>",
                 "_img:product_2_2_4",
-                "<p>Hình 4: Cát thạch anh cần được kiểm tra và thay thế định kỳ để đảm bảo rằng chúng vẫn giữ được tính năng lọc nước tốt nhất</p>",
+                "<p class='text-center mb-1'>Hình 4: Cát thạch anh cần được kiểm tra và thay thế định kỳ để đảm bảo rằng chúng vẫn giữ được tính năng lọc nước tốt nhất</p>",
                 "<p class='fw-bold fs-5'>Giá cát thạch anh lọc nước là bao nhiêu?</p>",
                 "<p>Với câu hỏi “Cát thạch anh giá bao nhiêu?” thì giá của loại vật liệu lọc này có thể khác nhau tùy thuộc vào nhiều yếu tố như dòng sản phẩm, đơn vị cung cấp, vị trí địa lý, thị trường và số lượng đặt hàng. Tuy nhiên, nói chung bảng giá cát thạch anh lọc nước thường cao hơn giá các vật liệu lọc khác như cát thường hoặc sỏi.</p>",
                 "<p>Trên thị trường Việt Nam hiện nay, giá bán cát thạch anh đang dao động từ khoảng 2 triệu đồng đến 4 triệu đồng cho một tấn sản phẩm tùy vào chất lượng và nguồn gốc. Tuy nhiên, báo giá cát thạch anh có thể thay đổi theo thời gian và một số yếu tố kinh tế khác. Việc tìm hiểu và so sánh giá của các nhà cung cấp là cần thiết để chọn được giá cả hợp lý khi mua sản phẩm cát thạch anh lọc nước.</p>",
@@ -260,7 +250,7 @@
                 "<p>Dù là một dòng sản phẩm phổ biến tuy nhiên không phải ai cũng tìm được địa chỉ cung cấp cát thạch anh uy tín khi phát sinh nhu cầu. Để giải đáp chung cho các câu hỏi như “mua cát thạch anh ở Hà Nội tại đâu?”, “mua cát thạch anh ở TPHCM tại đâu?” hay “địa chỉ nào uy tín bán cát thạch anh tại Đà Nẵng?”,  chính là cái tên xứng đáng để bạn chọn mặt gửi vàng.</p>",
                 "<p>Với nhiều năm kinh nghiệm hoạt động trong lĩnh vực xử lý nước, nanovast là thương hiệu hàng đầu tại Việt Nam chuyên sản xuất và cung cấp thiết bị lọc và vật liệu lọc nước cao cấp. Để có thể mua cát thạch anh với chất lượng tốt nhất, khách hàng hãy đến ngay hệ thống đại lý, nhà phân phối của nanovast trên toàn quốc.</p>",
                 "_img:product_2_2_5",
-                "<p>Hình 5: Nanovast là thương hiệu hàng đầu tại Việt Nam chuyên sản xuất và cung cấp thiết bị lọc và vật liệu lọc nước cao cấp</p>",
+                "<p class='text-center mb-1'>Hình 5: Nanovast là thương hiệu hàng đầu tại Việt Nam chuyên sản xuất và cung cấp thiết bị lọc và vật liệu lọc nước cao cấp</p>",
                 "<p>Hy vọng với những thông tin được cung cấp, các độc giả đã có thể hiểu rõ về vật liệu cát thạch anh lọc nước, từ đó, giúp đưa ra sự lựa chọn và phương án sử dụng phù hợp nhất với nhu cầu của bản thân.</p>"
             ]
         },
@@ -313,7 +303,7 @@
                 "<p>Than hoạt tính là một loại vật liệu tự nhiên hoặc tổng hợp, được sản xuất từ vật liệu có chứa Cacbon như gỗ, than đá, vỏ dừa, vỏ hạt cà phê… Loại vật liệu lọc này được xử lý bằng các phương pháp hoá học để tăng cường khả năng hấp phụ và loại bỏ các chất ô nhiễm trong môi trường nước.</p>",
                 "<p>Nhờ vào khả năng hấp phụ chất ô nhiễm, than hoạt tính lọc nước đã được sử dụng rộng rãi trong xử lý nước sạch, giúp loại bỏ các chất độc hại, cải thiện chất lượng nước và bảo vệ sức khỏe con người.</p>",
                 "_img:product_2_5_1",
-                "<p>Hình 1: Than hoạt tính là một loại vật liệu tự nhiên hoặc tổng hợp, được sản xuất từ vật liệu có chứa Cacbon như gỗ, than đá, vỏ dừa, vỏ hạt cà phê…</p>",
+                "<p class='text-center mb-1'>Hình 1: Than hoạt tính là một loại vật liệu tự nhiên hoặc tổng hợp, được sản xuất từ vật liệu có chứa Cacbon như gỗ, than đá, vỏ dừa, vỏ hạt cà phê…</p>",
                 "<p class='fw-bold fs-5'>Ưu điểm và nhược điểm của than hoạt tính lọc nước</p>",
                 "<p>Dù là một trong những loại vật liệu lọc phổ biến nhất hiện nay nhưng than hoạt tính lọc nước vẫn luôn tồn tại cả ưu điểm và nhược điểm. Cùng khám phá nhé!</p>",
                 "<p class='fw-bold'>Ưu điểm</p>",
@@ -333,7 +323,7 @@
                 "<p>- Xử lý nước bể bơi: Nước trong bể bơi thường chứa các chất hữu cơ, vi khuẩn và các tạp chất khác. Than hoạt tính có thể được sử dụng để loại bỏ các chất này và làm cho nước trong bể bơi trở nên sạch hơn và an toàn hơn cho sức khỏe của người sử dụng.</p>",
                 "<p>Bên cạnh các tác dụng lọc nước của than hoạt tính, loại vật liệu này còn được ứng dụng trong việc lọc không khí và một số lĩnh vực khác.</p>",
                 "_img:product_2_5_2",
-                "<p>Hình 2: Ứng dụng của than hoạt tính lọc nước không chỉ giới hạn ở việc loại bỏ các chất độc hại, mà còn có thể được sử dụng để cải thiện chất lượng nước</p>",
+                "<p class='text-center mb-1'>Hình 2: Ứng dụng của than hoạt tính lọc nước không chỉ giới hạn ở việc loại bỏ các chất độc hại, mà còn có thể được sử dụng để cải thiện chất lượng nước</p>",
                 "<p class='fw-bold fs-5'>Than hoạt tính nào tốt nhất để lọc nước? Phân loại than hoạt tính</p>",
                 "<p>Hiện nay, đang có rất nhiều loại than hoạt tính được sử dụng trong việc xử lý nước. Nếu dựa trên nguồn gốc của vật liệu, chúng ta sẽ có các loại than hoạt tính để lọc nước sau:</p>",
                 "<p>- Than hoạt tính từ gỗ: Là loại than hoạt tính lọc nước được sản xuất từ gỗ thông, gỗ dương và gỗ bách. Đây là loại than hoạt tính phổ biến nhất và được sử dụng rộng rãi trong các quy trình xử lý nước sạch.</p>",
@@ -347,13 +337,13 @@
                 "<p>- Than hoạt tính dạng sợi: Là dạng than hoạt tính được sản xuất từ sợi Cellulose có tính linh hoạt và có khả năng hấp phụ chất ô nhiễm, tạp chất và mùi hôi trong nước.</p>",
                 "<p>- Than hoạt tính dạng mạng: Đây là dạng than hoạt tính được sản xuất từ các sợi Polypropylene liên kết với nhau để tạo thành một mạng. Dạng than hoạt tính này có khả năng hấp phụ các chất ô nhiễm, tạp chất và mùi hôi trong nước.</p>",
                 "_img:product_2_5_3",
-                "<p>Hình 3: Đang có rất nhiều loại than hoạt tính được sử dụng trong việc xử lý nước</p>",
+                "<p class='text-center mb-1'>Hình 3: Đang có rất nhiều loại than hoạt tính được sử dụng trong việc xử lý nước</p>",
                 "<p class='fw-bold fs-5'>Than hoạt tính lọc nước như thế nào?</p>",
                 "<p>Cơ chế lọc nước của than hoạt tính là sự hấp phụ chất ô nhiễm bởi các khoáng chất trên bề mặt của than. Khi nước chảy qua lớp than hoạt tính, các chất ô nhiễm sẽ bị hấp phụ vào các khoáng chất này. </p>",
                 "<p>Quá trình này là do sự tương tác giữa các cạnh bề mặt của than hoạt tính với các phân tử trong nước. Những phân tử này có thể bao gồm các chất hữu cơ, Ion kim loại nặng hoặc một số tạp chất độc hại khác.</p>",
                 "<p>Ngoài ra, một vài loại than hoạt tính lọc nước cũng có thể phản ứng với các chất trong nước bằng cách sử dụng tính chất Oxy hóa. Trong quá trình này, các phân tử trong nước bị Oxy hóa, tạo ra các chất mới có tính chất hoạt tính hơn, dễ dàng bị hấp phụ bởi các khoáng chất trên bề mặt của than.</p>",
                 "_img:product_2_5_4",
-                "<p>Hình 4: Cơ chế lọc nước của than hoạt tính là sự hấp phụ chất ô nhiễm bởi các khoáng chất trên bề mặt của than</p>",
+                "<p class='text-center mb-1'>Hình 4: Cơ chế lọc nước của than hoạt tính là sự hấp phụ chất ô nhiễm bởi các khoáng chất trên bề mặt của than</p>",
                 "<p class='fw-bold fs-5'>Đâu là cách dùng than hoạt tính lọc nước hiệu quả nhất?</p>",
                 "<p>Thực tế, có rất nhiều cách xử lý nước bằng than hoạt tính. Trong đó, cách lọc nước bằng than hoạt tính đơn giản và đem lại hiệu quả nhất là thông qua cột lọc. Loại thiết bị này được thiết kế để chứa nhiều tầng vật liệu lọc khác nhau, bao gồm cả than hoạt tính.</p>",
                 "<p>Khi nguồn nước chảy vào cột lọc và qua lớp than hoạt tính, các chất ô nhiễm sẽ bị hấp phụ bởi các khoáng chất trên bề mặt của vật liệu. Quá trình này sẽ đóng góp vào tổng thể chung giúp hiệu quả xử lý của các bộ lọc tổng được tốt nhất.</p>",
@@ -365,7 +355,7 @@
                 "<p>- Thay thế thường xuyên: Thanh hoạt tính có tuổi thọ giới hạn và sẽ mất hiệu quả sau một thời gian sử dụng, do đó cần thay thế thường xuyên để đảm bảo hiệu quả của quá trình xử lý nước.</p>",
                 "<p>- Không sử dụng lại: Sau khi sử dụng, than hoạt tính có thể chứa các chất độc hại và không nên sử dụng lại. Thay vào đó, nó nên được loại bỏ theo quy định của cơ quan quản lý môi trường.</p>",
                 "_img:product_2_5_5",
-                "<p>Hình 5: Cách lọc nước bằng than hoạt tính đơn giản và đem lại hiệu quả nhất là thông qua cột lọc</p>",
+                "<p class='text-center mb-1'>Hình 5: Cách lọc nước bằng than hoạt tính đơn giản và đem lại hiệu quả nhất là thông qua cột lọc</p>",
                 "<p class='fw-bold fs-5'>Than hoạt tính lọc nước giá bao nhiêu?</p>",
                 "<p>Giá than hoạt tính lọc nước có thể khác nhau tùy thuộc vào nguồn gốc và chất lượng của sản phẩm. Các loại than hoạt tính được sản xuất từ các vật liệu tự nhiên như gỗ và vỏ hạt cà phê thường có giá thành thấp hơn so với các sản phẩm được sản xuất từ các nguyên liệu hóa học.</p>",
                 "<p>Tuy nhiên, báo giá than hoạt tính lọc nước cũng phụ thuộc vào các yếu tố khác như quy trình sản xuất, độ tinh khiết và khả năng hấp phụ của sản phẩm. Nếu bạn quan tâm đến giá than hoạt tính lọc nước cao cấp, hãy liên hệ ngay với Famy thông qua số Hotline: 1900-292924 để được tư vấn cụ thể.</p>",
@@ -374,7 +364,7 @@
                 "<p>Đừng quá lo lắng khi đã có Famy - Thương hiệu với hơn 15 năm kinh nghiệm hoạt động trong lĩnh vực sản xuất và cung cấp thiết bị xử lý nước, vật liệu lọc nước cao cấp. Khi mua hàng tại Famy, quý khách hàng không chỉ an tâm về chất lượng sản phẩm mà còn được hưởng những chính sách ưu đãi hết sức đặc biệt về giá.</p>",
                 "<p>Đặc biệt, thương hiệu Famy hiện đang sở hữu hệ thống nhà phân phối, đại lý chính hãng trên toàn quốc, giúp khách hàng có thể dễ dàng tiếp cận các dòng sản phẩm thiết bị xử lý nước, vật liệu lọc chất lượng cao. Mọi nhu cầu của bạn về nguồn nước đều sẽ được Famy giải quyết một cách nhanh chóng và hiệu quả nhất!</p>",
                 "_img:product_2_5_6",
-                "<p>Hình 6: Than hoạt tính lọc nước mua ở đâu? - Famy địa chỉ mua bán than hoạt tính lọc nước uy tín, chất lượng hàng đầu</p>",
+                "<p class='text-center mb-1'>Hình 6: Than hoạt tính lọc nước mua ở đâu? - Famy địa chỉ mua bán than hoạt tính lọc nước uy tín, chất lượng hàng đầu</p>",
                 "<p>Trên đây là toàn bộ những thông tin mà bạn đọc cần biết về than hoạt tính lọc nước. Nếu vẫn còn bất kỳ câu hỏi hay thắc mắc nào, hãy liên hệ ngay với Famy để được hỗ trợ chi tiết.</p>"
             ]
         }
@@ -414,7 +404,7 @@
         },
         {
             "id" : "4",
-            "header" : "Lõi lọc As và kim loại nặng NANOVAST",
+            "header" : "Lõi lọc Asen và kim loại nặng NANOVAST",
             "content" : [
                 "<p>Mục tiêu: loại bỏ Asen và các kim loại nặng có trong nước bằng phương pháp hấp phụ chọn lọc trên hai vật liệu tiên tiến tích hợp trong cùng một lõi lọc - vật liệu nanocomposite hấp phụ asen hiệu năng cao NC-F20 và vật liệu nanocomposite xúc tác hấp phụ asen chọn lọc NC-MF do phòng Hóa vô cơ - Hóa lý (Viện Hóa học - Viện Hàn Lâm khoa học Và Công nghệ Việt Nam nghiên cứu phát triển và sản xuất trong nước.</p>",
                 "<p class='fst-italic'>Bảng sau đưa ra các thông tin quan trọng nhất của vật liệu:</p>",

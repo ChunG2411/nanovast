@@ -12,8 +12,8 @@
         },
         {
             "id" : "3",
-            "header" : "Lõi lọc hydrogel CAB/CGA",
-            "content" : "Lõi lọc hydrogel CAB/CGA là lõi lọc số 2 trong máy lọc nước nanovast, được sản xuất phòng vô cơ hóa lý, viện Hóa học, viện Hàn lâm khoa học công nghệ Việt Nam"
+            "header" : "Lõi lọc ammonium: VH-AMONI(F)/2023",
+            "content" : "Lõi lọc ammonium: VH-AMONI(F)/2023 là lõi lọc có thể thay thế cho lõi lọc số 2 (lõi lọc phốt phát và amoni - chứa vật liệu Beamos) trong máy lọc nước NANOVAST. Lõi lọc này sử dụng trong trường hợp nước nguồn nhiễm Ammonium tương đối cao (10- 20mg/l)"
         },
         {
             "id" : "4",
@@ -41,7 +41,7 @@
     [
         {
             "id" : "1",
-            "header" : "Vật liệu lọc Amonium: VH-AMONI(F)/2023",
+            "header" : "Vật liệu lọc Amonium: VH-AMONI(A)/2023",
             "content" : "Ammonium (NH4+) là chất gây ô nhiễm nước phổ biến và được coi là khó xử lý. Ô nhiễm nước bởi amoni dẫn đến suy thoái nghiêm trọng hệ sinh thái dưới nước và gây ra rủi ro đáng kể cho sức khỏe con người. Hấp phụ là một phương pháp đầy hứa hẹn để loại bỏ amoni."
         },
         {
@@ -56,12 +56,12 @@
         },
         {
             "id" : "4",
-            "header" : "Lõi lọc As và kim loại nặng NANOVAST",
+            "header" : "Lõi lọc Asen và kim loại nặng NANOVAST",
             "content" : ":Loại bỏ Asen và các kim loại nặng có trong nước bằng phương pháp hấp phụ chọn lọc trên hai vật liệu tiên tiến tích hợp trong cùng một lõi lọc - vật liệu nanocomposite hấp phụ asen hiệu năng cao NC-F20 và vật liệu nanocomposite xúc tác hấp phụ asen chọn lọc NC-MF"
         },
         {
             "id" : "5",
-            "header" : "Lõi lọc ammonium: VH-AMONI(A)/2023",
+            "header" : "Lõi lọc ammonium: VH-AMONI(F)/2023",
             "content" : "Loại bỏ ammonium trong nước bằng phương pháp hấp phụ chọn lọc trên vật liệu tiên tiến - vật liệu nanocomposite hydrogel hấp phụ ammonium chọn lọc do phòng Hóa Vô cơ - Hóa lý (Viện Hóa học) nghiên cứu phát triển và sản xuất trong nước"
         }
     ]
