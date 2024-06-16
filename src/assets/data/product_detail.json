@@ -19,7 +19,7 @@
                 "<p class='fw-bold fs-5'>Sơ đồ cấu trúc máy</p>",
                 "_img:product_1_1_1",
                 "_img:product_1_1_2",
-                "<p>Hình ảnh Máy lọc nước NANOVAST MODEL VH/ 2016 lắp đặt trong tủ bếp gia đình</p>",
+                "<p class='text-center'>Hình ảnh Máy lọc nước NANOVAST MODEL VH/ 2016 lắp đặt trong tủ bếp gia đình</p>",
                 "<p class='fw-bold fs-5'>Tính năng của từng công đoạn:</p>",
                 "<p class='fw-bold'>Lọc thô</p>",
                 "<p>Mục tiêu của công đoạn này là loại bỏ tối đa các cặn rắn không tan trong nước có kích thước lớn hơn 0,5- 5µm (các hạt rắn lơ lửng, huyền phù: đất sét, bùn cặn, các gỉ sét do đường ống dẫn lâu ngày trôi theo vào nước...). Lõi lọc này không ngăn chặn được vi khuẩn và các độc tố hòa tan trong nước.</p>",
@@ -372,7 +372,7 @@
     [
         {
             "id" : "1",
-            "header" : "Vật liệu lọc Amonium: VH-AMONI(F)/2023",
+            "header" : "Vật liệu lọc Amonium: VH-AMONI(A)/2023",
             "content" : [
                 "<p>Ammonium (NH4+) là chất gây ô nhiễm nước phổ biến và được coi là khó xử lý. Ô nhiễm nước bởi amoni dẫn đến suy thoái nghiêm trọng hệ sinh thái dưới nước và gây ra rủi ro đáng kể cho sức khỏe con người. Hấp phụ là một phương pháp đầy hứa hẹn để loại bỏ amoni. Tuy nhiên, việc tìm ra chất hấp phụ phù hợp, sẵn có, chi phí thấp và hiệu quả luôn là mối quan tâm và thách thức cả trong giới học thuật và ngành nước. Chất hấp phụ VH-AMONI(F)/2023 là chất hấp phụ chọn lọc ammonium trong nước. Đây là sản phẩm của đề tài cấp viện Hàn lâm Khoa học và Công nghệ Việt Nam do TS. KSCC Phạm Văn Lâm chủ trì thực hiện.</p>",
                 "<p>Vật liệu VH-AMONI(F)/2023 là vật liệu polyme nanocomposite hydrogel mạng xen kẽ CAB với CGA sử dụng kỹ thuật in phân tử. (CAB là nanocomposite Chitosan -g - poly(acrylic acide)/bentonite; CGA là mạng polyme  Chitosan - glutaraldehyde);  vật liệu dạng hạt, mầu nâu vàng.</p>",
@@ -382,7 +382,7 @@
         },
         {
             "id" : "2",
-            "header" : "Vật liệu hấp phụ asen hiệu năng cao NC-F20",
+            "header" : "Vật liệu hấp phụ Asen hiệu năng cao NC-F20",
             "content" : [
                 "<p>Ô nhiễm asen trong nước ngầm (nguồn nước uống phổ biến nhất trên thế giới), được xem là một cuộc khủng hoảng chưa từng có trong lịch sử thế giới hiện đại. Ô nhiễm asen theo diện rộng đã gây ngộ độc đến số lượng lớn dân chúng.</p>",
                 "<p>Theo đánh giá của WHO, khoảng trên 15 triệu người Việt Nam (gần 1/5 dân số) có thể phải đối mặt với nguy cơ tiềm tàng về nhiễm độc asen do sử dụng các nguồn nước ô nhiễm không được xử lý triệt để. Mức độ ô nhiễm đặc biệt cao ở các tỉnh Hà Nam, Hà Nội, Hưng Yên, Hà Tây, Vĩnh Phúc, Long An, Đồng Tháp, An Giang và Kiên Giang... Do đó, việc loại bỏ asen và các kim loại nặng trong nước ăn uống đã và đang trở thành nhu cầu cấp thiết, đòi hỏi phải có một giải pháp về công nghệ có hiệu quả, phù hợp với thực tiễn của Việt Nam và có tính khả thi cao.</p>",
@@ -393,7 +393,7 @@
         },
         {
             "id" : "3",
-            "header" : "Vật liệu xúc tác oxy hóa hấp phụ nanocomposite oxit phức hợp (Fe-Mn) trên nền Ben tonite tách lớp (ký hiệu là NC-MF)",
+            "header" : "Vật liệu xúc tác oxy hóa hấp phụ Nanocomposite Oxit phức hợp (Fe-Mn) trên nền Ben tonite tách lớp (ký hiệu là NC-MF)",
             "content" : [
                 "<p>Đây là vật liệu lai tổ hợp giữa oxit phức hợp (Fe-Mn) dạng vô định hình với carbon hoạt tính trên nền bentonite. Vật liệu thể hiện tính năng xúc tác oxy hóa và hấp phụ đồng thời.</p>",
                 "<p>Dạng asen phổ biến trong nước ngầm là As(III), chúng có độc tính cao và rất khó loại bỏ. Thông thường cần phải oxy hóa As(III) thành As(V) bằng các tác nhân hóa học như O2, ozon, H2O2, KMnO4, Cl2 … Điều đó dẫn đến phức tạp hóa và chi phí cao cho hệ thống tiền oxy hóa. Việc chế tạo thành công vật liệu xúc tác oxy hóa hấp phụ NC - MF đã giải quyết triệt để vướng mắc này.</p>",
@@ -413,7 +413,7 @@
         },
         {
             "id" : "5",
-            "header" : "Lõi lọc ammonium: VH-AMONI(A)/2023",
+            "header" : "Lõi lọc Ammonium: VH-AMONI(F)/2023",
             "content" : [
                 "<p>Mục tiêu: loại bỏ ammonium trong nước bằng phương pháp hấp phụ chọn lọc trên vật liệu tiên tiến - vật liệu nanocomposite hydrogel hấp phụ ammonium chọn lọc do phòng Hóa Vô cơ - Hóa lý (Viện Hóa học) nghiên cứu phát triển và sản xuất trong nước - Vật liệu VH-AMONI(A)/2023.</p>",
                 "<p class='fst-italic'>Bảng sau đưa ra các thông tin quan trọng nhất của vật liệu:</p>",
